@@ -23,6 +23,8 @@
 		1C444EA31D1C06B7000DD7EE /* PlanningDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C444EA21D1C06B7000DD7EE /* PlanningDetailViewController.swift */; };
 		1C444EA51D1C0988000DD7EE /* ExposantsMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C444EA41D1C0988000DD7EE /* ExposantsMasterViewController.swift */; };
 		1C444EA71D1C09E3000DD7EE /* ExposantsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C444EA61D1C09E3000DD7EE /* ExposantsDetailViewController.swift */; };
+		1CA1226E1D1C165F00F9C5B8 /* Planning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA1226D1D1C165F00F9C5B8 /* Planning.swift */; };
+		1CA122701D1C178B00F9C5B8 /* Conference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA1226F1D1C178B00F9C5B8 /* Conference.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,8 @@
 		1C444EA21D1C06B7000DD7EE /* PlanningDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanningDetailViewController.swift; sourceTree = "<group>"; };
 		1C444EA41D1C0988000DD7EE /* ExposantsMasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExposantsMasterViewController.swift; sourceTree = "<group>"; };
 		1C444EA61D1C09E3000DD7EE /* ExposantsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExposantsDetailViewController.swift; sourceTree = "<group>"; };
+		1CA1226D1D1C165F00F9C5B8 /* Planning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Planning.swift; sourceTree = "<group>"; };
+		1CA1226F1D1C178B00F9C5B8 /* Conference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Conference.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		1C444E591D1BDE06000DD7EE = {
 			isa = PBXGroup;
 			children = (
+				1CA1226F1D1C178B00F9C5B8 /* Conference.swift */,
+				1CA1226D1D1C165F00F9C5B8 /* Planning.swift */,
 				1C444E641D1BDE06000DD7EE /* UrbanArtFair */,
 				1C444E791D1BDE06000DD7EE /* UrbanArtFairTests */,
 				1C444E841D1BDE06000DD7EE /* UrbanArtFairUITests */,
@@ -295,6 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CA1226E1D1C165F00F9C5B8 /* Planning.swift in Sources */,
 				1C444E9D1D1BEE1C000DD7EE /* ExposantsSidebar.swift in Sources */,
 				1C444EA51D1C0988000DD7EE /* ExposantsMasterViewController.swift in Sources */,
 				1C444EA71D1C09E3000DD7EE /* ExposantsDetailViewController.swift in Sources */,
@@ -303,6 +310,7 @@
 				1C444EA11D1C0632000DD7EE /* PlanningMasterViewController.swift in Sources */,
 				1C444EA31D1C06B7000DD7EE /* PlanningDetailViewController.swift in Sources */,
 				1C444E661D1BDE06000DD7EE /* AppDelegate.swift in Sources */,
+				1CA122701D1C178B00F9C5B8 /* Conference.swift in Sources */,
 				1C444E9B1D1BED1F000DD7EE /* PlanningSidebar.swift in Sources */,
 				1C444E971D1BDE9C000DD7EE /* SWRevealViewController.m in Sources */,
 				1C444E991D1BE1D6000DD7EE /* AccueilSidebar.swift in Sources */,
@@ -535,6 +543,7 @@
 				1C444E8C1D1BDE06000DD7EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C444E8D1D1BDE06000DD7EE /* Build configuration list for PBXNativeTarget "UrbanArtFairTests" */ = {
 			isa = XCConfigurationList;
@@ -543,6 +552,7 @@
 				1C444E8F1D1BDE06000DD7EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C444E901D1BDE06000DD7EE /* Build configuration list for PBXNativeTarget "UrbanArtFairUITests" */ = {
 			isa = XCConfigurationList;
@@ -551,6 +561,7 @@
 				1C444E921D1BDE06000DD7EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
