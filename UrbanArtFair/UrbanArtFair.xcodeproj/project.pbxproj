@@ -19,6 +19,10 @@
 		1C444E9B1D1BED1F000DD7EE /* PlanningSidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C444E9A1D1BED1F000DD7EE /* PlanningSidebar.swift */; };
 		1C444E9D1D1BEE1C000DD7EE /* ExposantsSidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C444E9C1D1BEE1C000DD7EE /* ExposantsSidebar.swift */; };
 		1C444E9F1D1BEEA5000DD7EE /* PlanSidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C444E9E1D1BEEA5000DD7EE /* PlanSidebar.swift */; };
+		1C444EA11D1C0632000DD7EE /* PlanningMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C444EA01D1C0632000DD7EE /* PlanningMasterViewController.swift */; };
+		1C444EA31D1C06B7000DD7EE /* PlanningDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C444EA21D1C06B7000DD7EE /* PlanningDetailViewController.swift */; };
+		1C444EA51D1C0988000DD7EE /* ExposantsMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C444EA41D1C0988000DD7EE /* ExposantsMasterViewController.swift */; };
+		1C444EA71D1C09E3000DD7EE /* ExposantsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C444EA61D1C09E3000DD7EE /* ExposantsDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +63,10 @@
 		1C444E9A1D1BED1F000DD7EE /* PlanningSidebar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanningSidebar.swift; sourceTree = "<group>"; };
 		1C444E9C1D1BEE1C000DD7EE /* ExposantsSidebar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExposantsSidebar.swift; sourceTree = "<group>"; };
 		1C444E9E1D1BEEA5000DD7EE /* PlanSidebar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanSidebar.swift; sourceTree = "<group>"; };
+		1C444EA01D1C0632000DD7EE /* PlanningMasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanningMasterViewController.swift; sourceTree = "<group>"; };
+		1C444EA21D1C06B7000DD7EE /* PlanningDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanningDetailViewController.swift; sourceTree = "<group>"; };
+		1C444EA41D1C0988000DD7EE /* ExposantsMasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExposantsMasterViewController.swift; sourceTree = "<group>"; };
+		1C444EA61D1C09E3000DD7EE /* ExposantsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExposantsDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +120,10 @@
 				1C444E931D1BDE34000DD7EE /* SWRevealViewController */,
 				1C444E651D1BDE06000DD7EE /* AppDelegate.swift */,
 				1C444E671D1BDE06000DD7EE /* ViewController.swift */,
+				1C444EA01D1C0632000DD7EE /* PlanningMasterViewController.swift */,
+				1C444EA41D1C0988000DD7EE /* ExposantsMasterViewController.swift */,
+				1C444EA61D1C09E3000DD7EE /* ExposantsDetailViewController.swift */,
+				1C444EA21D1C06B7000DD7EE /* PlanningDetailViewController.swift */,
 				1C444E691D1BDE06000DD7EE /* Main.storyboard */,
 				1C444E9E1D1BEEA5000DD7EE /* PlanSidebar.swift */,
 				1C444E9C1D1BEE1C000DD7EE /* ExposantsSidebar.swift */,
@@ -284,8 +296,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C444E9D1D1BEE1C000DD7EE /* ExposantsSidebar.swift in Sources */,
+				1C444EA51D1C0988000DD7EE /* ExposantsMasterViewController.swift in Sources */,
+				1C444EA71D1C09E3000DD7EE /* ExposantsDetailViewController.swift in Sources */,
 				1C444E681D1BDE06000DD7EE /* ViewController.swift in Sources */,
 				1C444E9F1D1BEEA5000DD7EE /* PlanSidebar.swift in Sources */,
+				1C444EA11D1C0632000DD7EE /* PlanningMasterViewController.swift in Sources */,
+				1C444EA31D1C06B7000DD7EE /* PlanningDetailViewController.swift in Sources */,
 				1C444E661D1BDE06000DD7EE /* AppDelegate.swift in Sources */,
 				1C444E9B1D1BED1F000DD7EE /* PlanningSidebar.swift in Sources */,
 				1C444E971D1BDE9C000DD7EE /* SWRevealViewController.m in Sources */,
