@@ -3,12 +3,12 @@
 Membres :
 
 
-Laura LABBE
-Kathy GREMILLET
-Sandy CHAKIR
-Mathieu JUGLET
-Shahnaz NGUYEN
-Maëva RIDARD
+- Laura LABBE
+- Kathy GREMILLET
+- Sandy CHAKIR
+- Mathieu JUGLET
+- Shahnaz NGUYEN
+- Maëva RIDARD
 
 Description de l'événement :
 
