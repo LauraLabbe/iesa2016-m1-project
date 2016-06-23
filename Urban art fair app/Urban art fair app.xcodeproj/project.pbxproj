@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C444E561D1BCEAE000DD7EE /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C444E551D1BCEAE000DD7EE /* SWRevealViewController.m */; };
+		1C444E581D1BDA90000DD7EE /* OurViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C444E571D1BDA90000DD7EE /* OurViewController.swift */; };
 		1CAC7A791D1AD60F0088F0E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAC7A781D1AD60F0088F0E6 /* AppDelegate.swift */; };
 		1CAC7A7B1D1AD60F0088F0E6 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAC7A7A1D1AD60F0088F0E6 /* MasterViewController.swift */; };
 		1CAC7A7D1D1AD60F0088F0E6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAC7A7C1D1AD60F0088F0E6 /* DetailViewController.swift */; };
@@ -36,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C444E531D1BCEAE000DD7EE /* Urban art fair app-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Urban art fair app-Bridging-Header.h"; sourceTree = "<group>"; };
+		1C444E541D1BCEAE000DD7EE /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		1C444E551D1BCEAE000DD7EE /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		1C444E571D1BDA90000DD7EE /* OurViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OurViewController.swift; sourceTree = "<group>"; };
 		1CAC7A751D1AD60F0088F0E6 /* Urban art fair app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Urban art fair app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CAC7A781D1AD60F0088F0E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CAC7A7A1D1AD60F0088F0E6 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +84,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C444E521D1BCA1C000DD7EE /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1C444E541D1BCEAE000DD7EE /* SWRevealViewController.h */,
+				1C444E551D1BCEAE000DD7EE /* SWRevealViewController.m */,
+				1C444E531D1BCEAE000DD7EE /* Urban art fair app-Bridging-Header.h */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
 		1CAC7A6C1D1AD60F0088F0E6 = {
 			isa = PBXGroup;
 			children = (
@@ -102,10 +118,12 @@
 		1CAC7A771D1AD60F0088F0E6 /* Urban art fair app */ = {
 			isa = PBXGroup;
 			children = (
+				1C444E521D1BCA1C000DD7EE /* SWRevealViewController */,
 				1CAC7A781D1AD60F0088F0E6 /* AppDelegate.swift */,
 				1CAC7A7A1D1AD60F0088F0E6 /* MasterViewController.swift */,
 				1CAC7A7C1D1AD60F0088F0E6 /* DetailViewController.swift */,
 				1CAC7A7E1D1AD6100088F0E6 /* Main.storyboard */,
+				1C444E571D1BDA90000DD7EE /* OurViewController.swift */,
 				1CAC7A811D1AD6100088F0E6 /* Assets.xcassets */,
 				1CAC7A831D1AD6100088F0E6 /* LaunchScreen.storyboard */,
 				1CAC7A861D1AD6100088F0E6 /* Info.plist */,
@@ -264,8 +282,10 @@
 			files = (
 				1CAC7AA91D1AD66A0088F0E6 /* Urban art fair.swift in Sources */,
 				1CAC7A7D1D1AD60F0088F0E6 /* DetailViewController.swift in Sources */,
+				1C444E561D1BCEAE000DD7EE /* SWRevealViewController.m in Sources */,
 				1CAC7A7B1D1AD60F0088F0E6 /* MasterViewController.swift in Sources */,
 				1CAC7A791D1AD60F0088F0E6 /* AppDelegate.swift in Sources */,
+				1C444E581D1BDA90000DD7EE /* OurViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,11 +425,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Urban art fair app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.urban-art-fair.Urban-art-fair-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Urban art fair app/Urban art fair app-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -417,11 +440,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Urban art fair app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.urban-art-fair.Urban-art-fair-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Urban art fair app/Urban art fair app-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -492,6 +517,7 @@
 				1CAC7AA11D1AD6100088F0E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1CAC7AA21D1AD6100088F0E6 /* Build configuration list for PBXNativeTarget "Urban art fair appTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +526,7 @@
 				1CAC7AA41D1AD6100088F0E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1CAC7AA51D1AD6100088F0E6 /* Build configuration list for PBXNativeTarget "Urban art fair appUITests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +535,7 @@
 				1CAC7AA71D1AD6100088F0E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
