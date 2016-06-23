@@ -12,8 +12,13 @@ class AccueilSidebar: UIViewController {
     
     @IBOutlet weak var menuButton: UIBarButtonItem!
     
+    @IBOutlet weak var scrollView: UIScrollView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        scrollView.contentSize.height = 1200
         
         if self.revealViewController() != nil {
             menuButton.target = self.revealViewController()
