@@ -57,7 +57,7 @@ class ConferenceMasterViewController: UITableViewController {
             let defaults = NSUserDefaults.standardUserDefaults()
             
             let data = NSKeyedArchiver.archivedDataWithRootObject(self.myConfPlanning.conf)
-            NSUserDefaults.standardUserDefaults().setObject(data, forKey: "myList")
+            NSUserDefaults.standardUserDefaults().setObject(data, forKey: "myListPlanning")
             
         }
         
@@ -118,7 +118,7 @@ class ConferenceMasterViewController: UITableViewController {
         if editingStyle == .Delete {
             myConfPlanning.conf.removeAtIndex(indexPath.row)
             let data = NSKeyedArchiver.archivedDataWithRootObject(self.myConfPlanning.conf)
-            NSUserDefaults.standardUserDefaults().removeObjectForKey("myList")
+            NSUserDefaults.standardUserDefaults().removeObjectForKey("myListPlanning")
             
             tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
         } else if editingStyle == .Insert {
