@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -36,13 +36,13 @@
                         <viewControllerLayoutGuide type="bottom" id="6aE-CY-MDr"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Glj-y4-hQD">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="400" height="1500"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4hq-1e-FeT">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4hq-1e-FeT">
+                                <rect key="frame" x="0.0" y="0.0" width="400" height="600"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="100" text="Générale" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="djg-DU-Jyu">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="100" ambiguous="YES" misplaced="YES" text="Générale" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="djg-DU-Jyu">
                                         <rect key="frame" x="279" y="40" width="42" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -55,11 +55,11 @@
                                             <constraint firstAttribute="width" constant="400" id="0dy-ae-zxG"/>
                                             <constraint firstAttribute="height" constant="400" id="erl-r3-YjQ"/>
                                         </constraints>
-                                        <mutableString key="text">urban art fair, première foire internationale dédiée à l’art urbain, revient au Carreau du Temple pour sa deuxième édition du 19 au 23 avril 2017.
+                                        <string key="text">urban art fair, première foire internationale dédiée à l’art urbain, revient au Carreau du Temple pour sa deuxième édition du 19 au 23 avril 2017.
 
 Face au phénomène artistique, économique et sociétal qu’il représente désormais, il est aujourd’hui indispensable d’observer l’art urbain comme une racine culturelle profonde de notre société et de lui consacrer un rendez-vous professionnel et culturel majeur.
 
-Talents émergents, artistes historiques, collections privées, solo shows, group shows, présentation du travail d’institutions, mécènes, experts, urban art fair soutient les acteurs majeurs du mouvement et leur offre pour la première fois un espace de consécration.</mutableString>
+Talents émergents, artistes historiques, collections privées, solo shows, group shows, présentation du travail d’institutions, mécènes, experts, urban art fair soutient les acteurs majeurs du mouvement et leur offre pour la première fois un espace de consécration.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                         <variation key="default">
@@ -230,23 +230,23 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                                         <exclude reference="goK-Th-bU3"/>
                                     </mask>
                                     <mask key="constraints">
-                                        <exclude reference="H1W-NL-X26"/>
-                                        <exclude reference="3wK-lh-Nlt"/>
-                                        <exclude reference="JOw-fy-na6"/>
-                                        <exclude reference="NfL-5a-Xeg"/>
-                                        <exclude reference="2vm-SX-4DW"/>
-                                        <exclude reference="bPa-FY-Jma"/>
-                                        <exclude reference="g2b-DG-d9d"/>
-                                        <exclude reference="snO-Yz-Vwf"/>
                                         <exclude reference="0Uq-yb-mnz"/>
                                         <exclude reference="8kH-9e-ZsQ"/>
                                         <exclude reference="W2U-ZV-WSg"/>
-                                        <exclude reference="Rwi-TF-eiZ"/>
-                                        <exclude reference="iQA-5p-YKf"/>
+                                        <exclude reference="2vm-SX-4DW"/>
+                                        <exclude reference="bPa-FY-Jma"/>
                                         <exclude reference="O2g-XL-wIB"/>
                                         <exclude reference="xVg-eP-aYd"/>
+                                        <exclude reference="3wK-lh-Nlt"/>
+                                        <exclude reference="JOw-fy-na6"/>
+                                        <exclude reference="NfL-5a-Xeg"/>
+                                        <exclude reference="Rwi-TF-eiZ"/>
+                                        <exclude reference="iQA-5p-YKf"/>
+                                        <exclude reference="g2b-DG-d9d"/>
+                                        <exclude reference="snO-Yz-Vwf"/>
                                         <exclude reference="QEJ-xV-M0l"/>
                                         <exclude reference="mz7-Hm-Jri"/>
+                                        <exclude reference="H1W-NL-X26"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact" ambiguous="YES">
@@ -262,23 +262,23 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                                         <include reference="goK-Th-bU3"/>
                                     </mask>
                                     <mask key="constraints">
-                                        <include reference="H1W-NL-X26"/>
-                                        <include reference="3wK-lh-Nlt"/>
-                                        <include reference="JOw-fy-na6"/>
-                                        <include reference="NfL-5a-Xeg"/>
-                                        <include reference="2vm-SX-4DW"/>
-                                        <include reference="bPa-FY-Jma"/>
-                                        <include reference="g2b-DG-d9d"/>
-                                        <include reference="snO-Yz-Vwf"/>
                                         <include reference="0Uq-yb-mnz"/>
                                         <include reference="8kH-9e-ZsQ"/>
                                         <include reference="W2U-ZV-WSg"/>
-                                        <include reference="Rwi-TF-eiZ"/>
-                                        <include reference="iQA-5p-YKf"/>
+                                        <include reference="2vm-SX-4DW"/>
+                                        <include reference="bPa-FY-Jma"/>
                                         <include reference="O2g-XL-wIB"/>
                                         <include reference="xVg-eP-aYd"/>
+                                        <include reference="3wK-lh-Nlt"/>
+                                        <include reference="JOw-fy-na6"/>
+                                        <include reference="NfL-5a-Xeg"/>
+                                        <include reference="Rwi-TF-eiZ"/>
+                                        <include reference="iQA-5p-YKf"/>
+                                        <include reference="g2b-DG-d9d"/>
+                                        <include reference="snO-Yz-Vwf"/>
                                         <include reference="QEJ-xV-M0l"/>
                                         <include reference="mz7-Hm-Jri"/>
+                                        <include reference="H1W-NL-X26"/>
                                     </mask>
                                 </variation>
                             </scrollView>
@@ -330,7 +330,7 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jDn-6w-bgg" id="hk8-8M-hee">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Accueil" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VOP-RT-VSd">
@@ -355,7 +355,7 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                                         <rect key="frame" x="0.0" y="44" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="pkh-hE-gcO" id="1zY-nJ-uv1">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Planning" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ezb-AF-BPM">
@@ -380,7 +380,7 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                                         <rect key="frame" x="0.0" y="88" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wp5-vh-kpY" id="fHR-4d-ntv">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Exposants" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eSC-F5-yyZ">
@@ -405,7 +405,7 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                                         <rect key="frame" x="0.0" y="132" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9mk-Ao-WsO" id="3Ek-kh-poH">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Plan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gPl-Fk-ajS">
@@ -452,7 +452,7 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                                 <rect key="frame" x="0.0" y="92" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="z06-A5-cJh" id="bCF-yd-rGd">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
@@ -476,10 +476,10 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
             </objects>
             <point key="canvasLocation" x="2413" y="577"/>
         </scene>
-        <!--Planning Detail View Controller-->
+        <!--Conference Detail View Controller-->
         <scene sceneID="B6G-O5-7g3">
             <objects>
-                <viewController id="tv2-PV-FCZ" customClass="PlanningDetailViewController" customModule="UrbanArtFair" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="tv2-PV-FCZ" customClass="ConferenceDetailViewController" customModule="UrbanArtFair" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="TIf-dE-7Ad"/>
                         <viewControllerLayoutGuide type="bottom" id="oUC-ea-faT"/>
@@ -524,23 +524,29 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wfn-xR-Zzq">
-                                <rect key="frame" x="20" y="477" width="485" height="150"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RhA-ZK-mpB">
                                 <rect key="frame" x="20" y="448" width="88" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wfn-xR-Zzq">
+                                <rect key="frame" x="20" y="473" width="485" height="150"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="aiV-4c-x4w"/>
+                    <connections>
+                        <outlet property="descriptionLabel" destination="wfn-xR-Zzq" id="WMo-zg-erb"/>
+                        <outlet property="intervenantLabel" destination="M2v-GF-e6V" id="ZWg-vj-mJb"/>
+                        <outlet property="nameLabel" destination="jwr-R2-uAY" id="s6J-5X-qmE"/>
+                        <outlet property="timeLabel" destination="A9b-mg-kj5" id="pta-PZ-TMN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O6y-Mi-SO3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -595,7 +601,7 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                                 <rect key="frame" x="0.0" y="92" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="DB4-Uh-Rgv" id="S7h-0K-lcv">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
@@ -697,10 +703,10 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
             </objects>
             <point key="canvasLocation" x="3235" y="577"/>
         </scene>
-        <!--View Controller-->
+        <!--Galerie Detail View Controller-->
         <scene sceneID="Rer-pa-FMp">
             <objects>
-                <viewController id="fuf-ee-AaK" sceneMemberID="viewController">
+                <viewController id="fuf-ee-AaK" customClass="GalerieDetailViewController" customModule="UrbanArtFair" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ene-lG-z0D"/>
                         <viewControllerLayoutGuide type="bottom" id="hVy-fB-HB5"/>
@@ -708,9 +714,68 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                     <view key="view" contentMode="scaleToFill" id="97L-vj-KcG">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rv3-ba-rSB">
+                                <rect key="frame" x="15" y="132" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yAw-aX-83T">
+                                <rect key="frame" x="18" y="407" width="88" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MpJ-y6-6Oo">
+                                <rect key="frame" x="15" y="224" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Sio-dz-EKz">
+                                <rect key="frame" x="15" y="452" width="565" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nom de l'artiste" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BgM-ik-vIe">
+                                <rect key="frame" x="20" y="195" width="121" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dld-oz-BaM">
+                                <rect key="frame" x="20" y="325" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lieu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p1N-g3-mM9">
+                                <rect key="frame" x="20" y="296" width="32" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nom de la galerie" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5bX-iW-5Pt">
+                                <rect key="frame" x="22" y="95" width="134" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="3mm-Xi-Nkp"/>
+                    <connections>
+                        <outlet property="descriptionLabel" destination="Sio-dz-EKz" id="vjt-Kd-o4b"/>
+                        <outlet property="gallerieLabel" destination="Rv3-ba-rSB" id="hON-hh-Nfh"/>
+                        <outlet property="nameArtistLabel" destination="MpJ-y6-6Oo" id="Z3W-ff-IRS"/>
+                        <outlet property="nameGalerieLabel" destination="Rv3-ba-rSB" id="6h1-xo-7Be"/>
+                        <outlet property="nameLabel" destination="Rv3-ba-rSB" id="5iM-ja-LSM"/>
+                        <outlet property="placeLabel" destination="Dld-oz-BaM" id="JTR-Ld-GTf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gXa-9o-wdk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

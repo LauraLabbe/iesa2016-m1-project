@@ -1,5 +1,5 @@
 //
-//  PlanningMasterViewController.swift
+//  ConferenceMasterViewController.swift
 //  UrbanArtFair
 //
 //  Created by Mastere 1 IT on 23/06/2016.
@@ -8,12 +8,12 @@
 
 import UIKit
 
-class PlanningMasterViewController: UITableViewController {
+class ConferenceMasterViewController: UITableViewController {
     
-    var detailViewController: PlanningDetailViewController? = nil
+    var detailViewController: ConferenceDetailViewController? = nil
     
     var objects = NSMutableArray()
-    var myPlanningConference: Conference = Conference()
+    var myConfPlanning: Planning = Planning()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,7 +24,7 @@ class PlanningMasterViewController: UITableViewController {
         self.navigationItem.rightBarButtonItem = addButton
         if let split = self.splitViewController {
             let controllers = split.viewControllers
-            self.detailViewController = (controllers[controllers.count-1] as! UINavigationController).topViewController as? PlanningDetailViewController
+            self.detailViewController = (controllers[controllers.count-1] as! UINavigationController).topViewController as? ConferenceDetailViewController
         }
     }
     
@@ -48,15 +48,15 @@ class PlanningMasterViewController: UITableViewController {
             (action: UIAlertAction) -> Void in
             let textField = alert.textFields![0]
             
-            let confe = Planning(name: textField.text!, time: "12-04-2016", intervenant: "Paul Jacques", desc: "Conf of Paul Jacques")
+            let confe = Conference(name: textField.text!, time: "12-04-2016", intervenant: "Paul Jacques", desc: "Conf of Paul Jacques")
             
-            self.myPlanningConference.conf.append(confe)
+            self.myConfPlanning.conf.append(confe)
             let indexPath = NSIndexPath(forRow: 2, inSection: 0)
             self.tableView.reloadData()
             
             let defaults = NSUserDefaults.standardUserDefaults()
             
-            let data = NSKeyedArchiver.archivedDataWithRootObject(self.myPlanningConference.conf)
+            let data = NSKeyedArchiver.archivedDataWithRootObject(self.myConfPlanning.conf)
             NSUserDefaults.standardUserDefaults().setObject(data, forKey: "myList")
             
         }
@@ -81,8 +81,8 @@ class PlanningMasterViewController: UITableViewController {
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "showDetail" {
             if let indexPath = self.tableView.indexPathForSelectedRow {
-                let selectedConf:Planning = myPlanningConference.conf[indexPath.row]
-                let controller = (segue.destinationViewController as! UINavigationController).topViewController as! PlanningDetailViewController
+                let selectedConf:Conference = myConfPlanning.conf[indexPath.row]
+                let controller = (segue.destinationViewController as! UINavigationController).topViewController as! ConferenceDetailViewController
 
                 controller.detailItem = selectedConf
                 controller.navigationItem.leftBarButtonItem = self.splitViewController?.displayModeButtonItem()
@@ -98,12 +98,12 @@ class PlanningMasterViewController: UITableViewController {
     }
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return myPlanningConference.conf.count
+        return myConfPlanning.conf.count
     }
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath)
-        cell.textLabel!.text = myPlanningConference.conf[indexPath.row].name
+        cell.textLabel!.text = myConfPlanning.conf[indexPath.row].name
         return cell
     }
     
@@ -116,7 +116,7 @@ class PlanningMasterViewController: UITableViewController {
     //NSIndexPath a section qui renvoie un Int et row qui renvoie un Int
     override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
         if editingStyle == .Delete {
-            myPlanningConference.conf.removeAtIndex(indexPath.row   )
+            myConfPlanning.conf.removeAtIndex(indexPath.row   )
             tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
         } else if editingStyle == .Insert {
             //

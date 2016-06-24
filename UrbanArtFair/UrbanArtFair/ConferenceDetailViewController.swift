@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PlanningDetailViewController: UIViewController {
+class ConferenceDetailViewController: UIViewController {
     
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var timeLabel: UILabel!
@@ -23,7 +23,7 @@ class PlanningDetailViewController: UIViewController {
     
     func configureView() {
         if let detail: AnyObject = self.detailItem {
-            let plan = detail as! Planning
+            let plan = detail as! Conference
             nameLabel.text = plan.name
             timeLabel.text = plan.time
             intervenantLabel.text = plan.intervenant

@@ -1,5 +1,5 @@
 //
-//  Planning.swift
+//  Conference.swift
 //  UrbanArtFair
 //
 //  Created by Mastere 1 IT on 23/06/2016.
@@ -8,33 +8,24 @@
 
 import Foundation
 
-class Planning: NSObject {
+class Planning {
     
-    var name: String = "Name"
-    var time: String = "Time"
-    var intervenant: String = "Intervenant"
-    var desc: String = "Description"
+    var conf : [Conference] = []
     
-    init(name: String, time: String, intervenant: String, desc: String) {
-        self.name = name
-        self.time = time
-        self.intervenant = intervenant
-        self.desc = desc
-    }
-    
-    init(coder decoder: NSCoder) {
-        self.name = decoder.decodeObjectForKey("name") as! String
-        self.time = decoder.decodeObjectForKey("time") as! String
-        self.intervenant = decoder.decodeObjectForKey("intervenant") as! String
-        self.desc = decoder.decodeObjectForKey("desc") as! String
+    init() {
+        let conf1 = Conference(name: "Toto", time: "10-04-2016", intervenant: "Thierry Duval", desc: "Conf of Street Art")
+        conf.append(conf1)
+        
+        let conf2 = Conference(name: "Conference of Art Street", time: "11-04-2016", intervenant: "Jean Dupont" ,desc: "Conf of Art Street")
+        conf.append(conf2)
+        
+        let defaults = NSUserDefaults.standardUserDefaults()
+        
+        if let data = NSUserDefaults.standardUserDefaults().objectForKey("myList") as? NSData {
+            let _mySavedList = NSKeyedUnarchiver.unarchiveObjectWithData(data) as! [Conference]
+            print(_mySavedList)
+            conf = _mySavedList
+        }
         
     }
-    
-    func encodeWithCoder(coder: NSCoder) {
-        coder.encodeObject(self.name, forKey: "name")
-        coder.encodeObject(self.time, forKey: "time")
-        coder.encodeObject(self.intervenant, forKey: "intervenant")
-        coder.encodeObject(self.desc, forKey: "desc")
-    }
-    
 }
