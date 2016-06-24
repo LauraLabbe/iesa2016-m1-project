@@ -144,11 +144,22 @@ class MasterViewController: UITableViewController {
     //NSIndexPath a section qui renvoie un Int et row qui renvoie un Int
     override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
         if editingStyle == .Delete {
+//            myBookStore.books.removeAtIndex(indexPath.row)
+//            let data = NSKeyedArchiver.archivedDataWithRootObject(self.myBookStore.books)
+//            NSUserDefaults.standardUserDefaults().removeObjectForKey("myList")
+//
+//            tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
+//            
+            
             myBookStore.books.removeAtIndex(indexPath.row)
-            let data = NSKeyedArchiver.archivedDataWithRootObject(self.myBookStore.books)
-            NSUserDefaults.standardUserDefaults().removeObjectForKey("myList")
-
             tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
+            
+            let defaults = NSUserDefaults.standardUserDefaults()
+            
+            let data = NSKeyedArchiver.archivedDataWithRootObject(self.myBookStore.books)
+            NSUserDefaults.standardUserDefaults().setObject(data, forKey: "myList")
+            
+            
         } else if editingStyle == .Insert {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view.
         }
