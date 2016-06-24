@@ -62,6 +62,7 @@ class MasterViewController: UITableViewController {
             let book = Book(title: textField.text!, author: "Mama", descr: "Mimi")
             
             self.myBookStore.books.append(book)
+            // Faire pareil pour le remove, faire un remove de book ! Puis sauvegarder la liste !
             let indexPath = NSIndexPath(forRow: 2, inSection: 0)
             self.tableView.reloadData()
             
@@ -69,6 +70,7 @@ class MasterViewController: UITableViewController {
             
             let data = NSKeyedArchiver.archivedDataWithRootObject(self.myBookStore.books)
             NSUserDefaults.standardUserDefaults().setObject(data, forKey: "myList")
+            // C'est ici que ça sauvegarde !
             
         }
         
@@ -142,7 +144,10 @@ class MasterViewController: UITableViewController {
     //NSIndexPath a section qui renvoie un Int et row qui renvoie un Int
     override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
         if editingStyle == .Delete {
-            myBookStore.books.removeAtIndex(indexPath.row   )
+            myBookStore.books.removeAtIndex(indexPath.row)
+            let data = NSKeyedArchiver.archivedDataWithRootObject(self.myBookStore.books)
+            NSUserDefaults.standardUserDefaults().removeObjectForKey("myList")
+
             tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
         } else if editingStyle == .Insert {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view.
