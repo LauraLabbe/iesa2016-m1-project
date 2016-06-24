@@ -116,10 +116,13 @@ class ConferenceMasterViewController: UITableViewController {
     //NSIndexPath a section qui renvoie un Int et row qui renvoie un Int
     override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
         if editingStyle == .Delete {
-            myConfPlanning.conf.removeAtIndex(indexPath.row   )
+            myConfPlanning.conf.removeAtIndex(indexPath.row)
+            let data = NSKeyedArchiver.archivedDataWithRootObject(self.myConfPlanning.conf)
+            NSUserDefaults.standardUserDefaults().removeObjectForKey("myList")
+            
             tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
         } else if editingStyle == .Insert {
-            //
+            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view.
         }
     }
 

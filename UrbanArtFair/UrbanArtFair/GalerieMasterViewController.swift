@@ -116,10 +116,13 @@ class GalerieMasterViewController: UITableViewController {
     //NSIndexPath a section qui renvoie un Int et row qui renvoie un Int
     override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
         if editingStyle == .Delete {
-            myGalArtist.gale.removeAtIndex(indexPath.row   )
+            myGalArtist.gale.removeAtIndex(indexPath.row)
+            let data = NSKeyedArchiver.archivedDataWithRootObject(self.myGalArtist.gale)
+            NSUserDefaults.standardUserDefaults().removeObjectForKey("myList")
+            
             tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
         } else if editingStyle == .Insert {
-            //
+            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view.
         }
     }
 
