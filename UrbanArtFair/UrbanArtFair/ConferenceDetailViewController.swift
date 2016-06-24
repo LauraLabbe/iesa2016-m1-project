@@ -15,14 +15,14 @@ class ConferenceDetailViewController: UIViewController {
     @IBOutlet weak var intervenantLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UITextView!
     
-    var detailItem: AnyObject? {
+    var detailItemConference: AnyObject? {
         didSet {
             
         }
     }
     
     func configureView() {
-        if let detail: AnyObject = self.detailItem {
+        if let detail: AnyObject = self.detailItemConference {
             let plan = detail as! Conference
             nameLabel.text = plan.name
             timeLabel.text = plan.time

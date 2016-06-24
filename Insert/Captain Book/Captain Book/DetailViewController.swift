@@ -26,7 +26,7 @@ class DetailViewController: UIViewController {
             let book = detail as! Book
             titleLabel.text = book.title
             authorLabel.text = book.author
-            descriptionTextView.text = book.description
+            descriptionTextView.text = book.descr
         }
     }
 

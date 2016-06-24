@@ -15,20 +15,21 @@ class GalerieDetailViewController: UIViewController {
     @IBOutlet weak var placeLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UITextView!
     
-    var detailItem: AnyObject? {
+    var detailItemGalerie: AnyObject? {
         didSet {
             
         }
     }
     
     func configureView() {
-        if let detail: AnyObject = self.detailItem {
+        if let detail: AnyObject = self.detailItemGalerie {
             let art = detail as! Galerie
             nameGalerieLabel.text = art.name
             nameArtistLabel.text = art.nameArtist
             placeLabel.text = art.place
-            descriptionLabel.text = art.place
+            descriptionLabel.text = art.desc
         }
+
     }
     
     override func viewDidLoad() {

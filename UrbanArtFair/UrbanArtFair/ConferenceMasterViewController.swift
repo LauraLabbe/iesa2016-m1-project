@@ -49,6 +49,7 @@ class ConferenceMasterViewController: UITableViewController {
             let textField = alert.textFields![0]
             
             let confe = Conference(name: textField.text!, time: "12-04-2016", intervenant: "Paul Jacques", desc: "Conf of Paul Jacques")
+            print("CONFE !", confe.time)
             
             self.myConfPlanning.conf.append(confe)
             let indexPath = NSIndexPath(forRow: 2, inSection: 0)
@@ -84,7 +85,7 @@ class ConferenceMasterViewController: UITableViewController {
                 let selectedConf:Conference = myConfPlanning.conf[indexPath.row]
                 let controller = (segue.destinationViewController as! UINavigationController).topViewController as! ConferenceDetailViewController
 
-                controller.detailItem = selectedConf
+                controller.detailItemConference = selectedConf
 //                controller.navigationItem.leftBarButtonItem = self.splitViewController?.displayModeButtonItem()
                 controller.navigationItem.leftItemsSupplementBackButton = true
             }

@@ -23,7 +23,6 @@ class Artist {
         
         if let data = NSUserDefaults.standardUserDefaults().objectForKey("myListGalerie") as? NSData {
             let _mySavedList = NSKeyedUnarchiver.unarchiveObjectWithData(data) as! [Galerie]
-            print(_mySavedList)
             gale = _mySavedList
         }
         

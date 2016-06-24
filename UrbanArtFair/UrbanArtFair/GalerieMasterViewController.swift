@@ -84,7 +84,7 @@ class GalerieMasterViewController: UITableViewController {
                 let selectedGale:Galerie = myGalArtist.gale[indexPath.row]
                 let controller = (segue.destinationViewController as! UINavigationController).topViewController as! GalerieDetailViewController
                 
-                controller.detailItem = selectedGale
+                controller.detailItemGalerie = selectedGale
 //                controller.navigationItem.leftBarButtonItem = self.splitViewController?.displayModeButtonItem()
                 controller.navigationItem.leftItemsSupplementBackButton = true
             }
