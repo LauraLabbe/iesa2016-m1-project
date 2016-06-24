@@ -23,6 +23,7 @@
 		1C444EA31D1C06B7000DD7EE /* ConferenceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C444EA21D1C06B7000DD7EE /* ConferenceDetailViewController.swift */; };
 		1C444EA51D1C0988000DD7EE /* GalerieMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C444EA41D1C0988000DD7EE /* GalerieMasterViewController.swift */; };
 		1C444EA71D1C09E3000DD7EE /* GalerieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C444EA61D1C09E3000DD7EE /* GalerieDetailViewController.swift */; };
+		1C59930F1D1D60C90088EA26 /* Quizz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C59930E1D1D60C90088EA26 /* Quizz.swift */; };
 		1CA1226E1D1C165F00F9C5B8 /* Conference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA1226D1D1C165F00F9C5B8 /* Conference.swift */; };
 		1CA122701D1C178B00F9C5B8 /* Planning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA1226F1D1C178B00F9C5B8 /* Planning.swift */; };
 		1CBC08D71D1D4CFE0086709A /* Galerie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBC08D61D1D4CFE0086709A /* Galerie.swift */; };
@@ -71,6 +72,7 @@
 		1C444EA21D1C06B7000DD7EE /* ConferenceDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConferenceDetailViewController.swift; sourceTree = "<group>"; };
 		1C444EA41D1C0988000DD7EE /* GalerieMasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalerieMasterViewController.swift; sourceTree = "<group>"; };
 		1C444EA61D1C09E3000DD7EE /* GalerieDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalerieDetailViewController.swift; sourceTree = "<group>"; };
+		1C59930E1D1D60C90088EA26 /* Quizz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quizz.swift; sourceTree = "<group>"; };
 		1CA1226D1D1C165F00F9C5B8 /* Conference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Conference.swift; sourceTree = "<group>"; };
 		1CA1226F1D1C178B00F9C5B8 /* Planning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Planning.swift; sourceTree = "<group>"; };
 		1CBC08D61D1D4CFE0086709A /* Galerie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Galerie.swift; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 				1C444E711D1BDE06000DD7EE /* Info.plist */,
 				1CBC08D61D1D4CFE0086709A /* Galerie.swift */,
 				1CBC08D81D1D4EBE0086709A /* Artist.swift */,
+				1C59930E1D1D60C90088EA26 /* Quizz.swift */,
 			);
 			path = UrbanArtFair;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 				1C444E9F1D1BEEA5000DD7EE /* PlanSidebar.swift in Sources */,
 				1C444EA11D1C0632000DD7EE /* ConferenceMasterViewController.swift in Sources */,
 				1C444EA31D1C06B7000DD7EE /* ConferenceDetailViewController.swift in Sources */,
+				1C59930F1D1D60C90088EA26 /* Quizz.swift in Sources */,
 				1C444E661D1BDE06000DD7EE /* AppDelegate.swift in Sources */,
 				1CA122701D1C178B00F9C5B8 /* Planning.swift in Sources */,
 				1C444E9B1D1BED1F000DD7EE /* PlanningSidebar.swift in Sources */,

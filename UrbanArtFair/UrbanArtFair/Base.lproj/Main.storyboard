@@ -45,7 +45,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="100" ambiguous="YES" misplaced="YES" text="Générale" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="djg-DU-Jyu">
                                         <rect key="frame" x="279" y="40" width="42" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gvU-bU-dGL">
@@ -88,7 +88,7 @@ Talents émergents, artistes historiques, collections privées, solo shows, grou
 
 </string>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
                                             <rect key="frame" x="21" y="706" width="157" height="21"/>
@@ -125,7 +125,7 @@ Preview VIP et vernissage le jeudi 21 avril jusqu’à 22h
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Accès" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KHB-Vc-pLK">
                                         <rect key="frame" x="-42" y="-21" width="42" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
                                             <rect key="frame" x="165" y="857" width="47" height="21"/>
@@ -161,7 +161,7 @@ Preview VIP et vernissage le jeudi 21 avril jusqu’à 22h
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contacts" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xJb-Db-E81">
                                         <rect key="frame" x="-42" y="-21" width="42" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
                                             <rect key="frame" x="157" y="1035" width="70" height="21"/>
@@ -336,7 +336,7 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Accueil" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VOP-RT-VSd">
                                                     <rect key="frame" x="8" y="8" width="584" height="27"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -361,7 +361,7 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Planning" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ezb-AF-BPM">
                                                     <rect key="frame" x="8" y="8" width="584" height="27"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -386,7 +386,7 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Exposants" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eSC-F5-yyZ">
                                                     <rect key="frame" x="8" y="8" width="584" height="27"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -411,7 +411,7 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Plan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gPl-Fk-ajS">
                                                     <rect key="frame" x="8" y="8" width="584" height="27"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -424,6 +424,31 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="sgZ-pJ-xTI" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="hnd-sP-xB0"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="eoa-aF-8iw">
+                                        <rect key="frame" x="0.0" y="176" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eoa-aF-8iw" id="ZmI-Tn-vuY">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quizz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sKr-Fs-spT">
+                                                    <rect key="frame" x="8" y="8" width="584" height="27"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottomMargin" secondItem="sKr-Fs-spT" secondAttribute="bottom" id="1Sc-rm-NKe"/>
+                                                <constraint firstItem="sKr-Fs-spT" firstAttribute="leading" secondItem="ZmI-Tn-vuY" secondAttribute="leadingMargin" id="Qhp-mn-f7r"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="sKr-Fs-spT" secondAttribute="trailing" id="TmV-hu-biF"/>
+                                                <constraint firstItem="sKr-Fs-spT" firstAttribute="top" secondItem="ZmI-Tn-vuY" secondAttribute="topMargin" id="cAS-hi-FwI"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Rmg-V9-mDv" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="Dht-dn-Ubg"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -458,7 +483,7 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Isg-0N-eTH">
                                             <rect key="frame" x="16" y="11" width="576" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -494,43 +519,43 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2nM-vI-QLy">
                                 <rect key="frame" x="17" y="103" width="45" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jwr-R2-uAY">
                                 <rect key="frame" x="20" y="146" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="No7-Yb-afF">
                                 <rect key="frame" x="24" y="218" width="38" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A9b-mg-kj5">
                                 <rect key="frame" x="20" y="270" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Intervenant" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ea-rX-Gv3">
                                 <rect key="frame" x="24" y="342" width="87" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M2v-GF-e6V">
                                 <rect key="frame" x="20" y="378" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RhA-ZK-mpB">
                                 <rect key="frame" x="20" y="448" width="88" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wfn-xR-Zzq">
@@ -610,7 +635,7 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jy4-56-gfV">
                                             <rect key="frame" x="24" y="11" width="559" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -691,6 +716,117 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
             </objects>
             <point key="canvasLocation" x="1721" y="1959"/>
         </scene>
+        <!--Quizz-->
+        <scene sceneID="Toe-VD-cSL">
+            <objects>
+                <viewController id="Y06-D9-QSt" customClass="Quizz" customModule="UrbanArtFair" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XA7-PC-lgw"/>
+                        <viewControllerLayoutGuide type="bottom" id="Fti-Mv-FaW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ohF-sb-CnG">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Où est né Bansky ?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WIp-eV-6lG">
+                                <rect key="frame" x="20" y="93" width="560" height="54"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.52529579159999995" green="0.68835561040000004" blue="0.71614583330000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dQK-7H-ycU">
+                                <rect key="frame" x="20" y="202" width="560" height="56"/>
+                                <color key="backgroundColor" red="0.40816509639999998" green="0.57496600040000001" blue="0.64563563479999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Copenhague">
+                                    <color key="titleColor" red="0.94893569662017274" green="0.94840332145739914" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.40816509638041398" green="0.57496600037850176" blue="0.6456356348167539" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="reponse1action:" destination="Y06-D9-QSt" eventType="touchUpInside" id="WUt-X2-jKM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n2J-Ul-c65">
+                                <rect key="frame" x="20" y="266" width="560" height="56"/>
+                                <color key="backgroundColor" red="0.40816509639999998" green="0.57496600040000001" blue="0.64563563479999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Paris">
+                                    <color key="titleColor" red="0.94893569659999999" green="0.94840332149999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.40816509639999998" green="0.57496600040000001" blue="0.64563563479999997" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="reponse2action:" destination="Y06-D9-QSt" eventType="touchUpInside" id="BAE-ut-IgG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xkl-ZB-9MW">
+                                <rect key="frame" x="20" y="330" width="560" height="56"/>
+                                <color key="backgroundColor" red="0.40816509639999998" green="0.57496600040000001" blue="0.64563563479999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Londres">
+                                    <color key="titleColor" red="0.94893569659999999" green="0.94840332149999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.40816509639999998" green="0.57496600040000001" blue="0.64563563479999997" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="reponse3action:" destination="Y06-D9-QSt" eventType="touchUpInside" id="14x-Ws-WQI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rte-Wd-3Lc">
+                                <rect key="frame" x="20" y="394" width="560" height="52"/>
+                                <color key="backgroundColor" red="0.40816509639999998" green="0.57496600040000001" blue="0.64563563479999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Bristol">
+                                    <color key="titleColor" red="0.94893569659999999" green="0.94840332149999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.40816509639999998" green="0.57496600040000001" blue="0.64563563479999997" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="reponse4action:" destination="Y06-D9-QSt" eventType="touchUpInside" id="ewT-7Q-2u3"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YST-sU-pIU">
+                                <rect key="frame" x="20" y="465" width="560" height="44"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.19820873195043703" green="0.79787660256410253" blue="0.73366554977925313" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tqw-QB-NTb">
+                                <rect key="frame" x="20" y="512" width="560" height="45"/>
+                                <state key="normal" title="Questin suivante">
+                                    <color key="titleColor" red="0.52529579160076478" green="0.68835561042761129" blue="0.71614583333333326" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Next:" destination="Y06-D9-QSt" eventType="touchUpInside" id="8AU-ot-iXL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Xkl-ZB-9MW" firstAttribute="width" secondItem="ohF-sb-CnG" secondAttribute="width" id="3oh-nR-J4l"/>
+                            <constraint firstItem="tqw-QB-NTb" firstAttribute="width" secondItem="ohF-sb-CnG" secondAttribute="width" id="4by-5p-vNf"/>
+                            <constraint firstItem="WIp-eV-6lG" firstAttribute="centerX" secondItem="ohF-sb-CnG" secondAttribute="centerX" id="IXg-sb-GpQ"/>
+                            <constraint firstItem="dQK-7H-ycU" firstAttribute="centerX" secondItem="ohF-sb-CnG" secondAttribute="centerX" id="PMq-Xy-Zmi"/>
+                            <constraint firstItem="YST-sU-pIU" firstAttribute="width" secondItem="ohF-sb-CnG" secondAttribute="width" id="QJE-Bg-bMv"/>
+                            <constraint firstItem="rte-Wd-3Lc" firstAttribute="centerX" secondItem="ohF-sb-CnG" secondAttribute="centerX" id="UjB-VO-FG4"/>
+                            <constraint firstItem="dQK-7H-ycU" firstAttribute="width" secondItem="ohF-sb-CnG" secondAttribute="width" id="aVQ-JZ-PFw"/>
+                            <constraint firstItem="n2J-Ul-c65" firstAttribute="width" secondItem="ohF-sb-CnG" secondAttribute="width" id="gvo-96-4fX"/>
+                            <constraint firstItem="rte-Wd-3Lc" firstAttribute="width" secondItem="ohF-sb-CnG" secondAttribute="width" id="hLh-1C-H8Y"/>
+                            <constraint firstItem="Xkl-ZB-9MW" firstAttribute="centerX" secondItem="ohF-sb-CnG" secondAttribute="centerX" id="mTS-SD-wYS"/>
+                            <constraint firstItem="tqw-QB-NTb" firstAttribute="centerX" secondItem="ohF-sb-CnG" secondAttribute="centerX" id="mqF-9B-qli"/>
+                            <constraint firstItem="YST-sU-pIU" firstAttribute="centerX" secondItem="ohF-sb-CnG" secondAttribute="centerX" id="qAI-gl-RfX"/>
+                            <constraint firstItem="WIp-eV-6lG" firstAttribute="width" secondItem="ohF-sb-CnG" secondAttribute="width" id="w4D-jb-XSK"/>
+                            <constraint firstItem="n2J-Ul-c65" firstAttribute="centerX" secondItem="ohF-sb-CnG" secondAttribute="centerX" id="ySB-tW-DWm"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Quizz" id="iLf-pt-cec"/>
+                    <connections>
+                        <outlet property="LabelEnd" destination="YST-sU-pIU" id="TJ7-BF-eWm"/>
+                        <outlet property="Next" destination="tqw-QB-NTb" id="ZZj-eP-8oc"/>
+                        <outlet property="question" destination="WIp-eV-6lG" id="vNe-0P-Mvx"/>
+                        <outlet property="reponse1" destination="dQK-7H-ycU" id="1KL-Wv-jlB"/>
+                        <outlet property="reponse2" destination="n2J-Ul-c65" id="lhX-j7-6PM"/>
+                        <outlet property="reponse3" destination="Xkl-ZB-9MW" id="n8Q-TX-sbG"/>
+                        <outlet property="reponse4" destination="rte-Wd-3Lc" id="0e7-s8-T49"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e6O-9L-Vue" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2541" y="2747"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="dMY-rH-EJf">
             <objects>
@@ -724,19 +860,19 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rv3-ba-rSB">
                                 <rect key="frame" x="15" y="132" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yAw-aX-83T">
                                 <rect key="frame" x="18" y="407" width="88" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MpJ-y6-6Oo">
                                 <rect key="frame" x="15" y="224" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Sio-dz-EKz">
@@ -749,25 +885,25 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nom de l'artiste" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BgM-ik-vIe">
                                 <rect key="frame" x="20" y="195" width="121" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dld-oz-BaM">
                                 <rect key="frame" x="20" y="325" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lieu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p1N-g3-mM9">
                                 <rect key="frame" x="20" y="296" width="32" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nom de la galerie" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5bX-iW-5Pt">
                                 <rect key="frame" x="22" y="95" width="134" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -802,6 +938,24 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2jp-kl-yKM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3235" y="1271"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="iis-L9-f5t">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Rmg-V9-mDv" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Vb5-aa-n2w">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Y06-D9-QSt" kind="relationship" relationship="rootViewController" id="ddU-ta-yxA"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9c3-rI-VAY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1729" y="2747"/>
         </scene>
     </scenes>
     <resources>
