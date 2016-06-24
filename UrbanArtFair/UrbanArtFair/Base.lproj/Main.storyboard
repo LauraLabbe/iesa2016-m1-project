@@ -442,18 +442,26 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
         <!--PLANNING-->
         <scene sceneID="cXY-jT-dQE">
             <objects>
-                <tableViewController id="PIt-KU-Wx7" customClass="PlanningSidebar" customModule="UrbanArtFair" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="PIt-KU-Wx7" customClass="ConferenceMasterViewController" customModule="UrbanArtFair" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="d3p-Hx-P8t">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="z06-A5-cJh">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="PlanningCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="PlanningCell" id="z06-A5-cJh">
                                 <rect key="frame" x="0.0" y="92" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="z06-A5-cJh" id="bCF-yd-rGd">
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Isg-0N-eTH">
+                                            <rect key="frame" x="16" y="11" width="576" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
                                 </tableViewCellContentView>
                                 <connections>
                                     <segue destination="JCQ-Ie-Qwk" kind="showDetail" id="Wtb-bF-IfK"/>
@@ -465,16 +473,11 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                             <outlet property="delegate" destination="PIt-KU-Wx7" id="1q9-4d-0Xe"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="PLANNING" id="JTC-yO-uoX">
-                        <barButtonItem key="leftBarButtonItem" title="Menu" id="ykn-jg-XWO"/>
-                    </navigationItem>
-                    <connections>
-                        <outlet property="menuButton" destination="ykn-jg-XWO" id="t4W-av-7wb"/>
-                    </connections>
+                    <navigationItem key="navigationItem" title="PLANNING" id="JTC-yO-uoX"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fHC-UT-yQI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2413" y="577"/>
+            <point key="canvasLocation" x="2413" y="571"/>
         </scene>
         <!--Conference Detail View Controller-->
         <scene sceneID="B6G-O5-7g3">
@@ -591,18 +594,26 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
         <!--EXPOSANTS-->
         <scene sceneID="R88-wg-uzM">
             <objects>
-                <tableViewController id="wfc-KE-VKU" customClass="ExposantsSidebar" customModule="UrbanArtFair" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="wfc-KE-VKU" customClass="GalerieMasterViewController" customModule="UrbanArtFair" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="eqN-MD-pfn">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="DB4-Uh-Rgv">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="GalerieCell" id="DB4-Uh-Rgv">
                                 <rect key="frame" x="0.0" y="92" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="DB4-Uh-Rgv" id="S7h-0K-lcv">
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jy4-56-gfV">
+                                            <rect key="frame" x="24" y="11" width="559" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
                                 </tableViewCellContentView>
                                 <connections>
                                     <segue destination="E0q-P4-TOO" kind="showDetail" id="kkT-1d-WUZ"/>
@@ -614,12 +625,7 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                             <outlet property="delegate" destination="wfc-KE-VKU" id="lyf-8U-219"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="EXPOSANTS" id="hzf-pL-BnK">
-                        <barButtonItem key="leftBarButtonItem" title="Menu" id="czo-lq-Ymj"/>
-                    </navigationItem>
-                    <connections>
-                        <outlet property="menuButton" destination="czo-lq-Ymj" id="eOy-BX-CHl"/>
-                    </connections>
+                    <navigationItem key="navigationItem" title="EXPOSANTS" id="hzf-pL-BnK"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tQ7-TQ-j4p" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -770,10 +776,8 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                     <navigationItem key="navigationItem" id="3mm-Xi-Nkp"/>
                     <connections>
                         <outlet property="descriptionLabel" destination="Sio-dz-EKz" id="vjt-Kd-o4b"/>
-                        <outlet property="gallerieLabel" destination="Rv3-ba-rSB" id="hON-hh-Nfh"/>
                         <outlet property="nameArtistLabel" destination="MpJ-y6-6Oo" id="Z3W-ff-IRS"/>
                         <outlet property="nameGalerieLabel" destination="Rv3-ba-rSB" id="6h1-xo-7Be"/>
-                        <outlet property="nameLabel" destination="Rv3-ba-rSB" id="5iM-ja-LSM"/>
                         <outlet property="placeLabel" destination="Dld-oz-BaM" id="JTR-Ld-GTf"/>
                     </connections>
                 </viewController>

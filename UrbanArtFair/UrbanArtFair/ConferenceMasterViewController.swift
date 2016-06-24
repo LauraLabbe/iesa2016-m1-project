@@ -22,16 +22,16 @@ class ConferenceMasterViewController: UITableViewController {
         
         let addButton = UIBarButtonItem(barButtonSystemItem: .Add, target: self, action: "insertNewObject:")
         self.navigationItem.rightBarButtonItem = addButton
-        if let split = self.splitViewController {
-            let controllers = split.viewControllers
-            self.detailViewController = (controllers[controllers.count-1] as! UINavigationController).topViewController as? ConferenceDetailViewController
-        }
+//        if let split = self.splitViewController {
+//            let controllers = split.viewControllers
+//            self.detailViewController = (controllers[controllers.count-1] as! UINavigationController).topViewController as? ConferenceDetailViewController
+//        }
     }
     
-    override func viewWillAppear(animated: Bool) {
-        self.clearsSelectionOnViewWillAppear = self.splitViewController!.collapsed
-        super.viewWillAppear(animated)
-    }
+//    override func viewWillAppear(animated: Bool) {
+//        self.clearsSelectionOnViewWillAppear = self.splitViewController!.collapsed
+//        super.viewWillAppear(animated)
+//    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -85,7 +85,7 @@ class ConferenceMasterViewController: UITableViewController {
                 let controller = (segue.destinationViewController as! UINavigationController).topViewController as! ConferenceDetailViewController
 
                 controller.detailItem = selectedConf
-                controller.navigationItem.leftBarButtonItem = self.splitViewController?.displayModeButtonItem()
+//                controller.navigationItem.leftBarButtonItem = self.splitViewController?.displayModeButtonItem()
                 controller.navigationItem.leftItemsSupplementBackButton = true
             }
         }
@@ -102,7 +102,7 @@ class ConferenceMasterViewController: UITableViewController {
     }
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath)
+        let cell = tableView.dequeueReusableCellWithIdentifier("PlanningCell", forIndexPath: indexPath)
         cell.textLabel!.text = myConfPlanning.conf[indexPath.row].name
         return cell
     }

@@ -23,7 +23,6 @@ class Planning {
         
         if let data = NSUserDefaults.standardUserDefaults().objectForKey("myList") as? NSData {
             let _mySavedList = NSKeyedUnarchiver.unarchiveObjectWithData(data) as! [Conference]
-            print(_mySavedList)
             conf = _mySavedList
         }
         
