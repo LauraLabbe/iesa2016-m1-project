@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -39,9 +39,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="400" height="1500"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="backgroundApp" translatesAutoresizingMaskIntoConstraints="NO" id="lYq-Tp-5G8">
-                                <rect key="frame" x="80" y="686" width="240" height="128"/>
-                            </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4hq-1e-FeT">
                                 <rect key="frame" x="0.0" y="0.0" width="400" height="600"/>
                                 <subviews>
@@ -71,22 +68,17 @@ Talents émergents, artistes historiques, collections privées, solo shows, grou
                                                 <exclude reference="erl-r3-YjQ"/>
                                             </mask>
                                         </variation>
-                                        <variation key="heightClass=regular-widthClass=compact" ambiguous="YES">
-                                            <rect key="frame" x="0.0" y="82" width="400" height="400"/>
+                                        <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
+                                            <rect key="frame" x="0.0" y="84" width="400" height="279"/>
                                             <mask key="constraints">
                                                 <include reference="0dy-ae-zxG"/>
                                                 <include reference="erl-r3-YjQ"/>
                                             </mask>
                                         </variation>
                                     </textView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="instalation" translatesAutoresizingMaskIntoConstraints="NO" id="03h-so-Urq">
-                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                        <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                            <rect key="frame" x="0.0" y="384" width="400" height="92"/>
-                                        </variation>
-                                    </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x5V-s3-w97">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x5V-s3-w97">
                                         <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">HORAIRES &amp; TARIFS
 
 </string>
@@ -94,7 +86,7 @@ Talents émergents, artistes historiques, collections privées, solo shows, grou
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                            <rect key="frame" x="21" y="706" width="157" height="21"/>
+                                            <rect key="frame" x="0.0" y="674" width="400" height="21"/>
                                         </variation>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TAG-eR-Mxj">
@@ -104,7 +96,7 @@ Talents émergents, artistes historiques, collections privées, solo shows, grou
                                             <constraint firstAttribute="width" constant="384" id="e2y-k3-NB4"/>
                                             <constraint firstAttribute="height" constant="128" id="yJ7-Gr-jLB"/>
                                         </constraints>
-                                        <string key="text">Du 22 au 23 avril 2016 de 11h à 20h
+                                        <string key="text"> Du 22 au 23 avril 2016 de 11h à 20h
 Dimanche 24 avril 2016 de 11h à 19h
 Preview VIP et vernissage le jeudi 21 avril jusqu’à 22h
 12 euros plein tarif / 8 euros tarif réduit
@@ -118,7 +110,7 @@ Preview VIP et vernissage le jeudi 21 avril jusqu’à 22h
                                             </mask>
                                         </variation>
                                         <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                            <rect key="frame" x="8" y="742" width="384" height="128"/>
+                                            <rect key="frame" x="0.0" y="693" width="400" height="117"/>
                                             <mask key="constraints">
                                                 <include reference="e2y-k3-NB4"/>
                                                 <include reference="yJ7-Gr-jLB"/>
@@ -127,11 +119,12 @@ Preview VIP et vernissage le jeudi 21 avril jusqu’à 22h
                                     </textView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Accès" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KHB-Vc-pLK">
                                         <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                            <rect key="frame" x="165" y="857" width="47" height="21"/>
+                                            <rect key="frame" x="0.0" y="830" width="400" height="21"/>
                                         </variation>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NP0-f1-Hp2">
@@ -141,7 +134,7 @@ Preview VIP et vernissage le jeudi 21 avril jusqu’à 22h
                                             <constraint firstAttribute="width" constant="384" id="azV-Pn-T6u"/>
                                             <constraint firstAttribute="height" constant="246" id="unN-ec-mCH"/>
                                         </constraints>
-                                        <string key="text">-CARREAU DU TEMPLE / 4, Rue Eugène Spuller, 75003 Paris
+                                        <string key="text"> -CARREAU DU TEMPLE / 4, Rue Eugène Spuller, 75003 Paris
 - Venir en Métro : M3 Temple / M3, M5, M8, M9, M11 République
 - Venir en Vélib : Station Perrée
 - Venir en Autolib : Station Perrée</string>
@@ -154,7 +147,7 @@ Preview VIP et vernissage le jeudi 21 avril jusqu’à 22h
                                             </mask>
                                         </variation>
                                         <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                            <rect key="frame" x="8" y="886" width="384" height="246"/>
+                                            <rect key="frame" x="0.0" y="849" width="400" height="404"/>
                                             <mask key="constraints">
                                                 <include reference="azV-Pn-T6u"/>
                                                 <include reference="unN-ec-mCH"/>
@@ -167,7 +160,7 @@ Preview VIP et vernissage le jeudi 21 avril jusqu’à 22h
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                            <rect key="frame" x="157" y="1035" width="70" height="21"/>
+                                            <rect key="frame" x="-5" y="1037" width="405" height="21"/>
                                         </variation>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="goK-Th-bU3">
@@ -192,13 +185,19 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                                             </mask>
                                         </variation>
                                         <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                            <rect key="frame" x="11" y="1073" width="381" height="165"/>
+                                            <rect key="frame" x="0.0" y="1066" width="400" height="174"/>
                                             <mask key="constraints">
                                                 <include reference="RvZ-MO-5yp"/>
                                                 <include reference="roz-Pn-LbT"/>
                                             </mask>
                                         </variation>
                                     </textView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="instalation" translatesAutoresizingMaskIntoConstraints="NO" id="03h-so-Urq">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                            <rect key="frame" x="0.0" y="362" width="400" height="310"/>
+                                        </variation>
+                                    </imageView>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="KHB-Vc-pLK" firstAttribute="width" secondItem="4hq-1e-FeT" secondAttribute="width" id="0Uq-yb-mnz"/>
@@ -224,13 +223,13 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                                 <variation key="default">
                                     <mask key="subviews">
                                         <exclude reference="gvU-bU-dGL"/>
-                                        <exclude reference="03h-so-Urq"/>
                                         <exclude reference="x5V-s3-w97"/>
                                         <exclude reference="TAG-eR-Mxj"/>
                                         <exclude reference="KHB-Vc-pLK"/>
                                         <exclude reference="NP0-f1-Hp2"/>
                                         <exclude reference="xJb-Db-E81"/>
                                         <exclude reference="goK-Th-bU3"/>
+                                        <exclude reference="03h-so-Urq"/>
                                     </mask>
                                     <mask key="constraints">
                                         <exclude reference="0Uq-yb-mnz"/>
@@ -256,13 +255,13 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                                     <rect key="frame" x="0.0" y="0.0" width="400" height="1500"/>
                                     <mask key="subviews">
                                         <include reference="gvU-bU-dGL"/>
-                                        <include reference="03h-so-Urq"/>
                                         <include reference="x5V-s3-w97"/>
                                         <include reference="TAG-eR-Mxj"/>
                                         <include reference="KHB-Vc-pLK"/>
                                         <include reference="NP0-f1-Hp2"/>
                                         <include reference="xJb-Db-E81"/>
                                         <include reference="goK-Th-bU3"/>
+                                        <include reference="03h-so-Urq"/>
                                     </mask>
                                     <mask key="constraints">
                                         <include reference="0Uq-yb-mnz"/>
@@ -290,9 +289,7 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                         <constraints>
                             <constraint firstItem="4hq-1e-FeT" firstAttribute="centerY" secondItem="Glj-y4-hQD" secondAttribute="centerY" id="17M-ad-AcO"/>
                             <constraint firstItem="4hq-1e-FeT" firstAttribute="width" secondItem="Glj-y4-hQD" secondAttribute="width" id="MG6-Zc-70p"/>
-                            <constraint firstItem="lYq-Tp-5G8" firstAttribute="width" secondItem="Glj-y4-hQD" secondAttribute="width" id="dbM-sW-map"/>
                             <constraint firstItem="4hq-1e-FeT" firstAttribute="centerX" secondItem="Glj-y4-hQD" secondAttribute="centerX" id="kgr-iD-bP2"/>
-                            <constraint firstItem="lYq-Tp-5G8" firstAttribute="height" secondItem="Glj-y4-hQD" secondAttribute="height" id="orx-gR-k8b"/>
                             <constraint firstItem="4hq-1e-FeT" firstAttribute="height" secondItem="Glj-y4-hQD" secondAttribute="height" id="sXS-29-Z4r"/>
                         </constraints>
                         <variation key="default">
@@ -331,118 +328,243 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                         <sections>
                             <tableViewSection id="2Hx-1D-0FH">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="jDn-6w-bgg">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="100" id="jDn-6w-bgg">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jDn-6w-bgg" id="hk8-8M-hee">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Accueil" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VOP-RT-VSd">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="accueil" translatesAutoresizingMaskIntoConstraints="NO" id="wwr-Kd-QwN">
+                                                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                    <variation key="heightClass=regular-widthClass=compact" ambiguous="YES">
+                                                        <rect key="frame" x="0.0" y="0.0" width="400" height="99"/>
+                                                    </variation>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Accueil" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VOP-RT-VSd">
                                                     <rect key="frame" x="8" y="8" width="584" height="27"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
+                                                    <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                                        <rect key="frame" x="16" y="36" width="384" height="27"/>
+                                                    </variation>
                                                 </label>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="trailingMargin" secondItem="VOP-RT-VSd" secondAttribute="trailing" id="582-aM-FnB"/>
                                                 <constraint firstItem="VOP-RT-VSd" firstAttribute="top" secondItem="hk8-8M-hee" secondAttribute="topMargin" id="CqW-ve-X21"/>
                                                 <constraint firstItem="VOP-RT-VSd" firstAttribute="leading" secondItem="hk8-8M-hee" secondAttribute="leadingMargin" id="V4C-BQ-WKR"/>
+                                                <constraint firstItem="wwr-Kd-QwN" firstAttribute="height" secondItem="hk8-8M-hee" secondAttribute="height" id="WHX-bp-eMe"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="VOP-RT-VSd" secondAttribute="bottom" id="iLb-A0-5S4"/>
+                                                <constraint firstItem="wwr-Kd-QwN" firstAttribute="width" secondItem="hk8-8M-hee" secondAttribute="width" id="v89-jg-vi9"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="subviews">
+                                                    <exclude reference="wwr-Kd-QwN"/>
+                                                </mask>
+                                                <mask key="constraints">
+                                                    <exclude reference="WHX-bp-eMe"/>
+                                                    <exclude reference="v89-jg-vi9"/>
+                                                </mask>
+                                            </variation>
+                                            <variation key="heightClass=regular-widthClass=compact">
+                                                <mask key="subviews">
+                                                    <include reference="wwr-Kd-QwN"/>
+                                                </mask>
+                                                <mask key="constraints">
+                                                    <include reference="WHX-bp-eMe"/>
+                                                    <include reference="v89-jg-vi9"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="tuM-zF-5ji" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="imR-UK-18d"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="pkh-hE-gcO">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="100" id="pkh-hE-gcO">
                                         <rect key="frame" x="0.0" y="44" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="pkh-hE-gcO" id="1zY-nJ-uv1">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Planning" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ezb-AF-BPM">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="planning" translatesAutoresizingMaskIntoConstraints="NO" id="AFW-4q-HWL">
+                                                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                    <variation key="heightClass=regular-widthClass=compact" ambiguous="YES">
+                                                        <rect key="frame" x="0.0" y="0.0" width="400" height="99"/>
+                                                    </variation>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Planning" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ezb-AF-BPM">
                                                     <rect key="frame" x="8" y="8" width="584" height="27"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
+                                                    <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                                        <rect key="frame" x="16" y="36" width="384" height="27"/>
+                                                    </variation>
                                                 </label>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstItem="AFW-4q-HWL" firstAttribute="height" secondItem="1zY-nJ-uv1" secondAttribute="height" id="4Lf-sm-IC3"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="Ezb-AF-BPM" secondAttribute="trailing" id="5aI-fa-InL"/>
+                                                <constraint firstItem="AFW-4q-HWL" firstAttribute="width" secondItem="1zY-nJ-uv1" secondAttribute="width" id="ITd-LL-Ijw"/>
                                                 <constraint firstItem="Ezb-AF-BPM" firstAttribute="top" secondItem="1zY-nJ-uv1" secondAttribute="topMargin" id="asO-zU-B50"/>
                                                 <constraint firstItem="Ezb-AF-BPM" firstAttribute="leading" secondItem="1zY-nJ-uv1" secondAttribute="leadingMargin" id="ffn-yI-ZBK"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="Ezb-AF-BPM" secondAttribute="bottom" id="w9y-bU-BVR"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="subviews">
+                                                    <exclude reference="AFW-4q-HWL"/>
+                                                </mask>
+                                                <mask key="constraints">
+                                                    <exclude reference="4Lf-sm-IC3"/>
+                                                    <exclude reference="ITd-LL-Ijw"/>
+                                                </mask>
+                                            </variation>
+                                            <variation key="heightClass=regular-widthClass=compact">
+                                                <mask key="subviews">
+                                                    <include reference="AFW-4q-HWL"/>
+                                                </mask>
+                                                <mask key="constraints">
+                                                    <include reference="4Lf-sm-IC3"/>
+                                                    <include reference="ITd-LL-Ijw"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="FCW-rr-XzY" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="Snd-vJ-ViJ"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="wp5-vh-kpY">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="100" id="wp5-vh-kpY">
                                         <rect key="frame" x="0.0" y="88" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wp5-vh-kpY" id="fHR-4d-ntv">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Exposants" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eSC-F5-yyZ">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="galerie" translatesAutoresizingMaskIntoConstraints="NO" id="gFV-oO-O4o">
+                                                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                    <variation key="heightClass=regular-widthClass=compact" ambiguous="YES">
+                                                        <rect key="frame" x="0.0" y="0.0" width="400" height="99"/>
+                                                    </variation>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Exposants" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eSC-F5-yyZ">
                                                     <rect key="frame" x="8" y="8" width="584" height="27"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
+                                                    <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                                        <rect key="frame" x="16" y="36" width="384" height="27"/>
+                                                    </variation>
                                                 </label>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstItem="gFV-oO-O4o" firstAttribute="height" secondItem="fHR-4d-ntv" secondAttribute="height" id="33g-NK-A5T"/>
                                                 <constraint firstItem="eSC-F5-yyZ" firstAttribute="top" secondItem="fHR-4d-ntv" secondAttribute="topMargin" id="HSt-aB-EMI"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="eSC-F5-yyZ" secondAttribute="bottom" id="JJu-fG-FS8"/>
+                                                <constraint firstItem="gFV-oO-O4o" firstAttribute="width" secondItem="fHR-4d-ntv" secondAttribute="width" id="Uz6-f9-q15"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="eSC-F5-yyZ" secondAttribute="trailing" id="gqp-4z-r5X"/>
                                                 <constraint firstItem="eSC-F5-yyZ" firstAttribute="leading" secondItem="fHR-4d-ntv" secondAttribute="leadingMargin" id="tCB-d7-3xx"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="subviews">
+                                                    <exclude reference="gFV-oO-O4o"/>
+                                                </mask>
+                                                <mask key="constraints">
+                                                    <exclude reference="33g-NK-A5T"/>
+                                                    <exclude reference="Uz6-f9-q15"/>
+                                                </mask>
+                                            </variation>
+                                            <variation key="heightClass=regular-widthClass=compact">
+                                                <mask key="subviews">
+                                                    <include reference="gFV-oO-O4o"/>
+                                                </mask>
+                                                <mask key="constraints">
+                                                    <include reference="33g-NK-A5T"/>
+                                                    <include reference="Uz6-f9-q15"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="qhR-4r-Tgb" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="Kl5-d6-YlZ"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="9mk-Ao-WsO">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="100" id="9mk-Ao-WsO">
                                         <rect key="frame" x="0.0" y="132" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9mk-Ao-WsO" id="3Ek-kh-poH">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="topRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="exposants" translatesAutoresizingMaskIntoConstraints="NO" id="M9O-kl-X5A">
+                                                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                    <variation key="heightClass=regular-widthClass=compact" ambiguous="YES">
+                                                        <rect key="frame" x="0.0" y="0.0" width="400" height="99"/>
+                                                    </variation>
+                                                </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Plan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gPl-Fk-ajS">
                                                     <rect key="frame" x="8" y="8" width="584" height="27"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
+                                                    <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                                        <rect key="frame" x="16" y="36" width="384" height="27"/>
+                                                    </variation>
                                                 </label>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="gPl-Fk-ajS" firstAttribute="leading" secondItem="3Ek-kh-poH" secondAttribute="leadingMargin" id="0qS-EH-Tav"/>
+                                                <constraint firstItem="M9O-kl-X5A" firstAttribute="height" secondItem="3Ek-kh-poH" secondAttribute="height" id="3Yr-4M-YZV"/>
+                                                <constraint firstItem="M9O-kl-X5A" firstAttribute="width" secondItem="3Ek-kh-poH" secondAttribute="width" id="5ev-po-1cM"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="gPl-Fk-ajS" secondAttribute="trailing" id="KMH-lm-tfA"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="gPl-Fk-ajS" secondAttribute="bottom" id="OkI-gD-oY4"/>
                                                 <constraint firstItem="gPl-Fk-ajS" firstAttribute="top" secondItem="3Ek-kh-poH" secondAttribute="topMargin" id="yCW-tq-VrC"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="subviews">
+                                                    <exclude reference="M9O-kl-X5A"/>
+                                                </mask>
+                                                <mask key="constraints">
+                                                    <exclude reference="3Yr-4M-YZV"/>
+                                                    <exclude reference="5ev-po-1cM"/>
+                                                </mask>
+                                            </variation>
+                                            <variation key="heightClass=regular-widthClass=compact">
+                                                <mask key="subviews">
+                                                    <include reference="M9O-kl-X5A"/>
+                                                </mask>
+                                                <mask key="constraints">
+                                                    <include reference="3Yr-4M-YZV"/>
+                                                    <include reference="5ev-po-1cM"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="sgZ-pJ-xTI" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="hnd-sP-xB0"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="eoa-aF-8iw">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="100" id="eoa-aF-8iw">
                                         <rect key="frame" x="0.0" y="176" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eoa-aF-8iw" id="ZmI-Tn-vuY">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="quizz" translatesAutoresizingMaskIntoConstraints="NO" id="utk-gh-bdy">
+                                                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                    <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                        <rect key="frame" x="0.0" y="0.0" width="400" height="99"/>
+                                                    </variation>
+                                                </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quizz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sKr-Fs-spT">
                                                     <rect key="frame" x="8" y="8" width="584" height="27"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
+                                                    <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                                        <rect key="frame" x="16" y="36" width="384" height="27"/>
+                                                    </variation>
                                                 </label>
                                             </subviews>
                                             <constraints>
@@ -451,6 +573,16 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                                                 <constraint firstAttribute="trailingMargin" secondItem="sKr-Fs-spT" secondAttribute="trailing" id="TmV-hu-biF"/>
                                                 <constraint firstItem="sKr-Fs-spT" firstAttribute="top" secondItem="ZmI-Tn-vuY" secondAttribute="topMargin" id="cAS-hi-FwI"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="subviews">
+                                                    <exclude reference="utk-gh-bdy"/>
+                                                </mask>
+                                            </variation>
+                                            <variation key="heightClass=regular-widthClass=compact">
+                                                <mask key="subviews">
+                                                    <include reference="utk-gh-bdy"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="Rmg-V9-mDv" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="Dht-dn-Ubg"/>
@@ -467,7 +599,7 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M3D-Ma-6kz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="521" y="1371"/>
+            <point key="canvasLocation" x="520.5" y="1371"/>
         </scene>
         <!--PLANNING-->
         <scene sceneID="cXY-jT-dQE">
@@ -521,6 +653,18 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="backgroundApp" translatesAutoresizingMaskIntoConstraints="NO" id="DAS-BI-bUH">
+                                <rect key="frame" x="190" y="171" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="400" height="800"/>
+                                </variation>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jib-aZ-mfX">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="400" height="800"/>
+                                </variation>
+                            </scrollView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2nM-vI-QLy">
                                 <rect key="frame" x="17" y="103" width="45" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -563,15 +707,32 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wfn-xR-Zzq">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wfn-xR-Zzq">
                                 <rect key="frame" x="20" y="473" width="485" height="150"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <mutableString key="text">  Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="477" width="400" height="323"/>
+                                </variation>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="DAS-BI-bUH" firstAttribute="height" secondItem="aDx-EE-H4p" secondAttribute="height" id="9am-cu-UA7"/>
+                            <constraint firstItem="DAS-BI-bUH" firstAttribute="width" secondItem="aDx-EE-H4p" secondAttribute="width" id="eKm-Z0-tTS"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="Jib-aZ-mfX"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="Jib-aZ-mfX"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="aiV-4c-x4w"/>
                     <connections>
@@ -583,7 +744,7 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O6y-Mi-SO3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3925" y="577"/>
+            <point key="canvasLocation" x="3924" y="576.75"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="VlF-qC-cUa">
@@ -972,8 +1133,13 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
         </scene>
     </scenes>
     <resources>
+        <image name="accueil" width="904" height="298"/>
         <image name="backgroundApp" width="620" height="745"/>
+        <image name="exposants" width="639" height="384"/>
+        <image name="galerie" width="639" height="384"/>
         <image name="instalation" width="2362" height="615"/>
+        <image name="planning" width="1494" height="1000"/>
+        <image name="quizz" width="440" height="186"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="imR-UK-18d"/>
