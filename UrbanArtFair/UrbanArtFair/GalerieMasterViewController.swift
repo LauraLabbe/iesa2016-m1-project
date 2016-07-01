@@ -40,15 +40,15 @@ class GalerieMasterViewController: UITableViewController {
     
     func insertNewObject(sender: AnyObject) {
         
-        let alert = UIAlertController(title: "New Galerie",
-            message: "Enter your new galerie",
+        let alert = UIAlertController(title: "Nouvelle galerie",
+            message: "Entrez votre nom de galerie",
             preferredStyle: .Alert)
         
         let saveAction = UIAlertAction(title: "Save", style: .Default) {
             (action: UIAlertAction) -> Void in
             let textField = alert.textFields![0]
             
-            let galerie = Galerie(name: textField.text!, nameArtist: "Jean Jacques", place: "rue Tartempion", desc: "Ma super description")
+            let galerie = Galerie(name: textField.text!, nameArtist: "Shepard Fairey", place: "122 rue du Commandant Rolland 13008 Marseille", desc: "Livraison de tableaux et autres oeuvres possibles.")
             
             self.myGalArtist.gale.append(galerie)
             let indexPath = NSIndexPath(forRow: 2, inSection: 0)

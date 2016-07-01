@@ -13,10 +13,10 @@ class Planning {
     var conf : [Conference] = []
     
     init() {
-        let conf1 = Conference(name: "Toto", time: "10-04-2016", intervenant: "Thierry Duval", desc: "Conf of Street Art")
+        let conf1 = Conference(name: "Conference du nouveau Street Art", time: "10-04-2016", intervenant: "Thierry Duval", desc: "Venez apprendre les méthodes de création du nouveau Street Art.")
         conf.append(conf1)
         
-        let conf2 = Conference(name: "Conference of Art Street", time: "11-04-2016", intervenant: "Jean Dupont" ,desc: "Conf of Art Street")
+        let conf2 = Conference(name: "Comment faire du Street Art ?", time: "11-04-2016", intervenant: "Jean Dupont" ,desc: "Venez apprendre à faire du street art. Du débutant à l'amateur, venez vous améliorer de manière ludique.")
         conf.append(conf2)
         
         let defaults = NSUserDefaults.standardUserDefaults()

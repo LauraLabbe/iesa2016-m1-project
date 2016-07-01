@@ -40,16 +40,15 @@ class ConferenceMasterViewController: UITableViewController {
     
     func insertNewObject(sender: AnyObject) {
         
-        let alert = UIAlertController(title: "New conference",
-            message: "Enter your new conference",
+        let alert = UIAlertController(title: "Nouvelle conférence",
+            message: "Entrez votre nouvelle conférence",
             preferredStyle: .Alert)
         
         let saveAction = UIAlertAction(title: "Save", style: .Default) {
             (action: UIAlertAction) -> Void in
             let textField = alert.textFields![0]
             
-            let confe = Conference(name: textField.text!, time: "12-04-2016", intervenant: "Paul Jacques", desc: "Conf of Paul Jacques")
-            print("CONFE !", confe.time)
+            let confe = Conference(name: textField.text!, time: "12-04-2016", intervenant: "Paul Jacques", desc: "Qu'est-ce que le Street Art ?")
             
             self.myConfPlanning.conf.append(confe)
             let indexPath = NSIndexPath(forRow: 2, inSection: 0)

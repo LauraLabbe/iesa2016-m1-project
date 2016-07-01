@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0720"
+   LastUpgradeVersion = "0730"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1CE28FD91D196D2B00C1DBE8"
-               BuildableName = "Captain Book.app"
-               BlueprintName = "Captain Book"
-               ReferencedContainer = "container:Captain Book.xcodeproj">
+               BlueprintIdentifier = "1C444E611D1BDE06000DD7EE"
+               BuildableName = "UrbanArtFair.app"
+               BlueprintName = "UrbanArtFair"
+               ReferencedContainer = "container:UrbanArtFair.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1CE28FEF1D196D2B00C1DBE8"
-               BuildableName = "Captain BookTests.xctest"
-               BlueprintName = "Captain BookTests"
-               ReferencedContainer = "container:Captain Book.xcodeproj">
+               BlueprintIdentifier = "1C444E751D1BDE06000DD7EE"
+               BuildableName = "UrbanArtFairTests.xctest"
+               BlueprintName = "UrbanArtFairTests"
+               ReferencedContainer = "container:UrbanArtFair.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1CE28FFA1D196D2B00C1DBE8"
-               BuildableName = "Captain BookUITests.xctest"
-               BlueprintName = "Captain BookUITests"
-               ReferencedContainer = "container:Captain Book.xcodeproj">
+               BlueprintIdentifier = "1C444E801D1BDE06000DD7EE"
+               BuildableName = "UrbanArtFairUITests.xctest"
+               BlueprintName = "UrbanArtFairUITests"
+               ReferencedContainer = "container:UrbanArtFair.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1CE28FD91D196D2B00C1DBE8"
-            BuildableName = "Captain Book.app"
-            BlueprintName = "Captain Book"
-            ReferencedContainer = "container:Captain Book.xcodeproj">
+            BlueprintIdentifier = "1C444E611D1BDE06000DD7EE"
+            BuildableName = "UrbanArtFair.app"
+            BlueprintName = "UrbanArtFair"
+            ReferencedContainer = "container:UrbanArtFair.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1CE28FD91D196D2B00C1DBE8"
-            BuildableName = "Captain Book.app"
-            BlueprintName = "Captain Book"
-            ReferencedContainer = "container:Captain Book.xcodeproj">
+            BlueprintIdentifier = "1C444E611D1BDE06000DD7EE"
+            BuildableName = "UrbanArtFair.app"
+            BlueprintName = "UrbanArtFair"
+            ReferencedContainer = "container:UrbanArtFair.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1CE28FD91D196D2B00C1DBE8"
-            BuildableName = "Captain Book.app"
-            BlueprintName = "Captain Book"
-            ReferencedContainer = "container:Captain Book.xcodeproj">
+            BlueprintIdentifier = "1C444E611D1BDE06000DD7EE"
+            BuildableName = "UrbanArtFair.app"
+            BlueprintName = "UrbanArtFair"
+            ReferencedContainer = "container:UrbanArtFair.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

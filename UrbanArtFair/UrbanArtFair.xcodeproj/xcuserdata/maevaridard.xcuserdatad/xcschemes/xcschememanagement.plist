@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Captain Book.xcscheme</key>
+		<key>UrbanArtFair.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1CE28FD91D196D2B00C1DBE8</key>
+		<key>1C444E611D1BDE06000DD7EE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1CE28FEF1D196D2B00C1DBE8</key>
+		<key>1C444E751D1BDE06000DD7EE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1CE28FFA1D196D2B00C1DBE8</key>
+		<key>1C444E801D1BDE06000DD7EE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
