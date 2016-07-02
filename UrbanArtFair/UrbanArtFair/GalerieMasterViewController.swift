@@ -33,62 +33,13 @@ class GalerieMasterViewController: UITableViewController {
         // Do any additional setup after loading the view, typically from a nib.
         self.navigationItem.rightBarButtonItem = self.editButtonItem()
         
-//        let addButton = UIBarButtonItem(barButtonSystemItem: .Add, target: self, action: "insertNewObject:")
-//        self.navigationItem.rightBarButtonItem = addButton
-        
-//        if let split = self.splitViewController {
-//            let controllers = split.viewControllers
-//            self.detailViewController = (controllers[controllers.count-1] as! UINavigationController).topViewController as? GalerieDetailViewController
-//        }
     }
     
-//    override func viewWillAppear(animated: Bool) {
-//        self.clearsSelectionOnViewWillAppear = self.splitViewController!.collapsed
-//        super.viewWillAppear(animated)
-//    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-//    func insertNewObject(sender: AnyObject) {
-//        
-//        let alert = UIAlertController(title: "Nouvelle galerie",
-//            message: "Entrez votre nom de galerie",
-//            preferredStyle: .Alert)
-//        
-//        let saveAction = UIAlertAction(title: "Save", style: .Default) {
-//            (action: UIAlertAction) -> Void in
-//            let textField = alert.textFields![0]
-//            
-//            let galerie = Galerie(name: textField.text!, nameArtist: "Shepard Fairey", place: "122 rue du Commandant Rolland 13008 Marseille", desc: "Livraison de tableaux et autres oeuvres possibles.")
-//            
-//            self.myGalArtist.gale.append(galerie)
-//            let indexPath = NSIndexPath(forRow: 2, inSection: 0)
-//            self.tableView.reloadData()
-//            
-//            let defaults = NSUserDefaults.standardUserDefaults()
-//            
-//            let data = NSKeyedArchiver.archivedDataWithRootObject(self.myGalArtist.gale)
-//            NSUserDefaults.standardUserDefaults().setObject(data, forKey: "myListGalerie")
-//            
-//        }
-//        
-//        let cancelAction = UIAlertAction(title: "Cancel", style: .Default) {
-//            (action: UIAlertAction) -> Void in
-//        }
-//        
-//        alert.addTextFieldWithConfigurationHandler {
-//            (textField: UITextField!) -> Void in
-//        }
-//        
-//        alert.addAction(saveAction)
-//        alert.addAction(cancelAction)
-//        
-//        presentViewController(alert, animated: true, completion: nil)
-//        
-//    }
     
     // MARK: - Segues
     
@@ -140,9 +91,6 @@ class GalerieMasterViewController: UITableViewController {
             NSUserDefaults.standardUserDefaults().setObject(data, forKey: "myListGalerie")
             
         }
-//        else if editingStyle == .Insert {
-//            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view.
-//        }
     }
 
     
