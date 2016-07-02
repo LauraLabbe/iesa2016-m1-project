@@ -10,6 +10,9 @@ import UIKit
 
 class ConferenceMasterViewController: UITableViewController {
     
+    @IBOutlet weak var menuButton: UIBarButtonItem!
+    
+    
     var detailViewController: ConferenceDetailViewController? = nil
     
     var objects = NSMutableArray()
@@ -17,11 +20,25 @@ class ConferenceMasterViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        //Gestion Menu
+        if self.revealViewController() != nil {
+            menuButton.target = self.revealViewController()
+            menuButton.action = "revealToggle:"
+            self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
+        }
+        
+        
+        
+        
         // Do any additional setup after loading the view, typically from a nib.
-        self.navigationItem.leftBarButtonItem = self.editButtonItem()
+        
+//        self.navigationItem.leftBarButtonItem = self.editButtonItem()
         
         let addButton = UIBarButtonItem(barButtonSystemItem: .Add, target: self, action: "insertNewObject:")
         self.navigationItem.rightBarButtonItem = addButton
+        
 //        if let split = self.splitViewController {
 //            let controllers = split.viewControllers
 //            self.detailViewController = (controllers[controllers.count-1] as! UINavigationController).topViewController as? ConferenceDetailViewController
@@ -115,17 +132,18 @@ class ConferenceMasterViewController: UITableViewController {
     
     //NSIndexPath a section qui renvoie un Int et row qui renvoie un Int
     override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
-        if editingStyle == .Delete {
-            
-            myConfPlanning.conf.removeAtIndex(indexPath.row)
-            tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
-            
-            let defaults = NSUserDefaults.standardUserDefaults()
-            
-            let data = NSKeyedArchiver.archivedDataWithRootObject(self.myConfPlanning.conf)
-            NSUserDefaults.standardUserDefaults().setObject(data, forKey: "myListPlanning")
-            
-        } else if editingStyle == .Insert {
+//        if editingStyle == .Delete {
+//            
+//            myConfPlanning.conf.removeAtIndex(indexPath.row)
+//            tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
+//            
+//            let defaults = NSUserDefaults.standardUserDefaults()
+//            
+//            let data = NSKeyedArchiver.archivedDataWithRootObject(self.myConfPlanning.conf)
+//            NSUserDefaults.standardUserDefaults().setObject(data, forKey: "myListPlanning")
+//            
+//        }
+        if editingStyle == .Insert {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view.
         }
     }

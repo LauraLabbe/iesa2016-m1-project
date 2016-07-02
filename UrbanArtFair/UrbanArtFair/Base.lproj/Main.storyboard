@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -85,9 +85,6 @@ Talents émergents, artistes historiques, collections privées, solo shows, grou
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
-                                        <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                            <rect key="frame" x="0.0" y="674" width="400" height="21"/>
-                                        </variation>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TAG-eR-Mxj">
                                         <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
@@ -109,8 +106,7 @@ Preview VIP et vernissage le jeudi 21 avril jusqu’à 22h
                                                 <exclude reference="yJ7-Gr-jLB"/>
                                             </mask>
                                         </variation>
-                                        <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                            <rect key="frame" x="0.0" y="693" width="400" height="117"/>
+                                        <variation key="heightClass=regular-widthClass=compact">
                                             <mask key="constraints">
                                                 <include reference="e2y-k3-NB4"/>
                                                 <include reference="yJ7-Gr-jLB"/>
@@ -123,9 +119,6 @@ Preview VIP et vernissage le jeudi 21 avril jusqu’à 22h
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
-                                        <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                            <rect key="frame" x="0.0" y="830" width="400" height="21"/>
-                                        </variation>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NP0-f1-Hp2">
                                         <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
@@ -194,9 +187,6 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                                     </textView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="instalation" translatesAutoresizingMaskIntoConstraints="NO" id="03h-so-Urq">
                                         <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                        <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                            <rect key="frame" x="0.0" y="362" width="400" height="310"/>
-                                        </variation>
                                     </imageView>
                                 </subviews>
                                 <constraints>
@@ -329,10 +319,10 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                             <tableViewSection id="2Hx-1D-0FH">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="100" id="jDn-6w-bgg">
-                                        <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jDn-6w-bgg" id="hk8-8M-hee">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="99"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="accueil" translatesAutoresizingMaskIntoConstraints="NO" id="wwr-Kd-QwN">
@@ -341,7 +331,7 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                                                         <rect key="frame" x="0.0" y="0.0" width="400" height="99"/>
                                                     </variation>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Accueil" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VOP-RT-VSd">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Accueil" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VOP-RT-VSd">
                                                     <rect key="frame" x="8" y="8" width="584" height="27"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -383,10 +373,10 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="100" id="pkh-hE-gcO">
-                                        <rect key="frame" x="0.0" y="44" width="600" height="44"/>
+                                        <rect key="frame" x="0.0" y="100" width="600" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="pkh-hE-gcO" id="1zY-nJ-uv1">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="99"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="planning" translatesAutoresizingMaskIntoConstraints="NO" id="AFW-4q-HWL">
@@ -395,7 +385,7 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                                                         <rect key="frame" x="0.0" y="0.0" width="400" height="99"/>
                                                     </variation>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Planning" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ezb-AF-BPM">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Planning" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ezb-AF-BPM">
                                                     <rect key="frame" x="8" y="8" width="584" height="27"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -437,10 +427,10 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="100" id="wp5-vh-kpY">
-                                        <rect key="frame" x="0.0" y="88" width="600" height="44"/>
+                                        <rect key="frame" x="0.0" y="200" width="600" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wp5-vh-kpY" id="fHR-4d-ntv">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="99"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="galerie" translatesAutoresizingMaskIntoConstraints="NO" id="gFV-oO-O4o">
@@ -449,7 +439,7 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                                                         <rect key="frame" x="0.0" y="0.0" width="400" height="99"/>
                                                     </variation>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Exposants" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eSC-F5-yyZ">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Exposants" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eSC-F5-yyZ">
                                                     <rect key="frame" x="8" y="8" width="584" height="27"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -491,10 +481,10 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="100" id="9mk-Ao-WsO">
-                                        <rect key="frame" x="0.0" y="132" width="600" height="44"/>
+                                        <rect key="frame" x="0.0" y="300" width="600" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9mk-Ao-WsO" id="3Ek-kh-poH">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="99"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="topRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="exposants" translatesAutoresizingMaskIntoConstraints="NO" id="M9O-kl-X5A">
@@ -503,7 +493,7 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                                                         <rect key="frame" x="0.0" y="0.0" width="400" height="99"/>
                                                     </variation>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Plan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gPl-Fk-ajS">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Plan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gPl-Fk-ajS">
                                                     <rect key="frame" x="8" y="8" width="584" height="27"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -545,10 +535,10 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="100" id="eoa-aF-8iw">
-                                        <rect key="frame" x="0.0" y="176" width="600" height="44"/>
+                                        <rect key="frame" x="0.0" y="400" width="600" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eoa-aF-8iw" id="ZmI-Tn-vuY">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="99"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="quizz" translatesAutoresizingMaskIntoConstraints="NO" id="utk-gh-bdy">
@@ -557,7 +547,7 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                                                         <rect key="frame" x="0.0" y="0.0" width="400" height="99"/>
                                                     </variation>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quizz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sKr-Fs-spT">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Quizz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sKr-Fs-spT">
                                                     <rect key="frame" x="8" y="8" width="584" height="27"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -635,7 +625,12 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                             <outlet property="delegate" destination="PIt-KU-Wx7" id="1q9-4d-0Xe"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="PLANNING" id="JTC-yO-uoX"/>
+                    <navigationItem key="navigationItem" title="PLANNING" id="JTC-yO-uoX">
+                        <barButtonItem key="leftBarButtonItem" title="Menu" id="S6J-CE-57C"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="menuButton" destination="S6J-CE-57C" id="bng-wh-Kng"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fHC-UT-yQI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -698,7 +693,7 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wfn-xR-Zzq">
                                 <rect key="frame" x="20" y="473" width="485" height="150"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">  Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <string key="text">  Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
@@ -708,7 +703,7 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jib-aZ-mfX">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RhA-ZK-mpB">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RhA-ZK-mpB">
                                         <rect key="frame" x="20" y="448" width="88" height="21"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -748,10 +743,13 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                             </mask>
                         </variation>
                     </view>
-                    <navigationItem key="navigationItem" id="aiV-4c-x4w"/>
+                    <navigationItem key="navigationItem" id="aiV-4c-x4w">
+                        <barButtonItem key="leftBarButtonItem" title="Menu" id="cGg-QC-uau"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="descriptionLabel" destination="wfn-xR-Zzq" id="WMo-zg-erb"/>
                         <outlet property="intervenantLabel" destination="M2v-GF-e6V" id="ZWg-vj-mJb"/>
+                        <outlet property="menuButton" destination="cGg-QC-uau" id="fLQ-6w-0jF"/>
                         <outlet property="nameLabel" destination="jwr-R2-uAY" id="s6J-5X-qmE"/>
                         <outlet property="timeLabel" destination="A9b-mg-kj5" id="pta-PZ-TMN"/>
                     </connections>
@@ -830,7 +828,12 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                             <outlet property="delegate" destination="wfc-KE-VKU" id="lyf-8U-219"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="EXPOSANTS" id="hzf-pL-BnK"/>
+                    <navigationItem key="navigationItem" title="EXPOSANTS" id="hzf-pL-BnK">
+                        <barButtonItem key="leftBarButtonItem" title="Menu" id="PjN-23-6gp"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="menuButton" destination="PjN-23-6gp" id="TO6-aa-dcl"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tQ7-TQ-j4p" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -992,10 +995,13 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                             <constraint firstItem="n2J-Ul-c65" firstAttribute="centerX" secondItem="ohF-sb-CnG" secondAttribute="centerX" id="ySB-tW-DWm"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Quizz" id="iLf-pt-cec"/>
+                    <navigationItem key="navigationItem" title="Quizz" id="iLf-pt-cec">
+                        <barButtonItem key="leftBarButtonItem" title="Menu" id="uUA-H6-fdk"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="LabelEnd" destination="YST-sU-pIU" id="TJ7-BF-eWm"/>
                         <outlet property="Next" destination="tqw-QB-NTb" id="ZZj-eP-8oc"/>
+                        <outlet property="menuButton" destination="uUA-H6-fdk" id="SJa-xg-e4g"/>
                         <outlet property="question" destination="WIp-eV-6lG" id="vNe-0P-Mvx"/>
                         <outlet property="reponse1" destination="dQK-7H-ycU" id="1KL-Wv-jlB"/>
                         <outlet property="reponse2" destination="n2J-Ul-c65" id="lhX-j7-6PM"/>
@@ -1112,9 +1118,12 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                             <constraint firstItem="p1p-GA-XMT" firstAttribute="height" secondItem="97L-vj-KcG" secondAttribute="height" id="kex-fG-ThB"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="3mm-Xi-Nkp"/>
+                    <navigationItem key="navigationItem" id="3mm-Xi-Nkp">
+                        <barButtonItem key="leftBarButtonItem" title="Menu" id="Sn2-ih-AsB"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="descriptionLabel" destination="Sio-dz-EKz" id="vjt-Kd-o4b"/>
+                        <outlet property="menuButton" destination="Sn2-ih-AsB" id="ES3-QI-D6y"/>
                         <outlet property="nameArtistLabel" destination="MpJ-y6-6Oo" id="Z3W-ff-IRS"/>
                         <outlet property="nameGalerieLabel" destination="Rv3-ba-rSB" id="6h1-xo-7Be"/>
                         <outlet property="placeLabel" destination="Dld-oz-BaM" id="JTR-Ld-GTf"/>

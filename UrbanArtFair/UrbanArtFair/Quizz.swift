@@ -10,6 +10,8 @@ import Foundation
 
 class Quizz: UIViewController {
     
+    @IBOutlet weak var menuButton: UIBarButtonItem!
+    
     @IBOutlet weak var question: UILabel!
     
     @IBOutlet weak var reponse1: UIButton!
@@ -28,6 +30,13 @@ class Quizz: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if self.revealViewController() != nil {
+            menuButton.target = self.revealViewController()
+            menuButton.action = "revealToggle:"
+            self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
+        }
+        
         RandomNumber = 1
         RandomQuestions()
         Next.hidden = true
