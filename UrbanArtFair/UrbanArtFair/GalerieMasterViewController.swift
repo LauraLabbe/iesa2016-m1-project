@@ -93,7 +93,7 @@ class GalerieMasterViewController: UITableViewController {
     // MARK: - Segues
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if segue.identifier == "showDetail" {
+        if segue.identifier == "showGalerie" {
             if let indexPath = self.tableView.indexPathForSelectedRow {
                 let selectedGale:Galerie = myGalArtist.gale[indexPath.row]
                 let controller = (segue.destinationViewController as! UINavigationController).topViewController as! GalerieDetailViewController

@@ -96,7 +96,7 @@ class ConferenceMasterViewController: UITableViewController {
     // MARK: - Segues
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if segue.identifier == "showDetail" {
+        if segue.identifier == "showConference" {
             if let indexPath = self.tableView.indexPathForSelectedRow {
                 let selectedConf:Conference = myConfPlanning.conf[indexPath.row]
                 let controller = (segue.destinationViewController as! UINavigationController).topViewController as! ConferenceDetailViewController
