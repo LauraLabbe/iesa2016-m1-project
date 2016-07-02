@@ -15,6 +15,8 @@ class ConferenceDetailViewController: UIViewController {
     @IBOutlet weak var intervenantLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UITextView!
     
+    @IBOutlet weak var menuButton: UIBarButtonItem!
+    
     var detailItemConference: AnyObject? {
         didSet {
             
@@ -35,6 +37,13 @@ class ConferenceDetailViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         self.configureView()
+        
+        //Gestion Menu
+        if self.revealViewController() != nil {
+            menuButton.target = self.revealViewController()
+            menuButton.action = "revealToggle:"
+            self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
+        }
     }
     
     override func didReceiveMemoryWarning() {

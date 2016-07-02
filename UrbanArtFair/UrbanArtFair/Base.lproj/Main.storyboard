@@ -625,7 +625,12 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                             <outlet property="delegate" destination="PIt-KU-Wx7" id="1q9-4d-0Xe"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="PLANNING" id="JTC-yO-uoX"/>
+                    <navigationItem key="navigationItem" title="PLANNING" id="JTC-yO-uoX">
+                        <barButtonItem key="leftBarButtonItem" title="Menu" id="S6J-CE-57C"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="menuButton" destination="S6J-CE-57C" id="bng-wh-Kng"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fHC-UT-yQI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -738,10 +743,13 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                             </mask>
                         </variation>
                     </view>
-                    <navigationItem key="navigationItem" id="aiV-4c-x4w"/>
+                    <navigationItem key="navigationItem" id="aiV-4c-x4w">
+                        <barButtonItem key="leftBarButtonItem" title="Menu" id="cGg-QC-uau"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="descriptionLabel" destination="wfn-xR-Zzq" id="WMo-zg-erb"/>
                         <outlet property="intervenantLabel" destination="M2v-GF-e6V" id="ZWg-vj-mJb"/>
+                        <outlet property="menuButton" destination="cGg-QC-uau" id="fLQ-6w-0jF"/>
                         <outlet property="nameLabel" destination="jwr-R2-uAY" id="s6J-5X-qmE"/>
                         <outlet property="timeLabel" destination="A9b-mg-kj5" id="pta-PZ-TMN"/>
                     </connections>
@@ -820,7 +828,12 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                             <outlet property="delegate" destination="wfc-KE-VKU" id="lyf-8U-219"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="EXPOSANTS" id="hzf-pL-BnK"/>
+                    <navigationItem key="navigationItem" title="EXPOSANTS" id="hzf-pL-BnK">
+                        <barButtonItem key="leftBarButtonItem" title="Menu" id="PjN-23-6gp"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="menuButton" destination="PjN-23-6gp" id="TO6-aa-dcl"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tQ7-TQ-j4p" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1082,10 +1095,13 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                             <constraint firstItem="n2J-Ul-c65" firstAttribute="centerX" secondItem="ohF-sb-CnG" secondAttribute="centerX" id="ySB-tW-DWm"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Quizz" id="iLf-pt-cec"/>
+                    <navigationItem key="navigationItem" title="Quizz" id="iLf-pt-cec">
+                        <barButtonItem key="leftBarButtonItem" title="Menu" id="uUA-H6-fdk"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="LabelEnd" destination="YST-sU-pIU" id="TJ7-BF-eWm"/>
                         <outlet property="Next" destination="tqw-QB-NTb" id="ZZj-eP-8oc"/>
+                        <outlet property="menuButton" destination="uUA-H6-fdk" id="SJa-xg-e4g"/>
                         <outlet property="question" destination="WIp-eV-6lG" id="vNe-0P-Mvx"/>
                         <outlet property="reponse1" destination="dQK-7H-ycU" id="1KL-Wv-jlB"/>
                         <outlet property="reponse2" destination="n2J-Ul-c65" id="lhX-j7-6PM"/>
@@ -1202,9 +1218,12 @@ Communication / Presse / Accréditations : Frédérique Cadieu / presse@urbanart
                             <constraint firstItem="p1p-GA-XMT" firstAttribute="height" secondItem="97L-vj-KcG" secondAttribute="height" id="kex-fG-ThB"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="3mm-Xi-Nkp"/>
+                    <navigationItem key="navigationItem" id="3mm-Xi-Nkp">
+                        <barButtonItem key="leftBarButtonItem" title="Menu" id="Sn2-ih-AsB"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="descriptionLabel" destination="Sio-dz-EKz" id="vjt-Kd-o4b"/>
+                        <outlet property="menuButton" destination="Sn2-ih-AsB" id="ES3-QI-D6y"/>
                         <outlet property="nameArtistLabel" destination="MpJ-y6-6Oo" id="Z3W-ff-IRS"/>
                         <outlet property="nameGalerieLabel" destination="Rv3-ba-rSB" id="6h1-xo-7Be"/>
                         <outlet property="placeLabel" destination="Dld-oz-BaM" id="JTR-Ld-GTf"/>
